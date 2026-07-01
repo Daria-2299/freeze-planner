@@ -1,0 +1,58 @@
+.header {
+  background: #fafffa;
+  padding: 30px 40px;
+  font-family:
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  // border-bottom: 1px solid #d4edda;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 6px;
+  border: 1px solid #d4edda;
+  border-radius: 50px;
+  background: #fafffa;
+  box-shadow: 0 2px 12px rgba(40, 167, 69, 0.06);
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 60px;
+    padding: 0 16px;
+    border: none;
+    border-radius: 40px;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.4px;
+    color: #2d6a4f;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &--active {
+      background: #2d6a4f;
+      color: #ffffff;
+      box-shadow: 0 4px 12px rgba(45, 106, 79, 0.25);
+    }
+
+    &:hover {
+      background: #e9f5eb;
+      color: #1b4332;
+    }
+  }
+
+  &__icon {
+    display: block;
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+}
