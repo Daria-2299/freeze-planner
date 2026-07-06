@@ -1,0 +1,92 @@
+.feedback-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+  margin: 20px auto;
+  padding: 30px 40px;
+  border: 1px solid #d4edda;
+  border-radius: 50px;
+  box-shadow: 0 2px 12px rgba(40, 167, 69, 0.06);
+  font-family:
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+
+  &__title {
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 0.4px;
+    color: #1b4332;
+  }
+
+  &__subtitle {
+    color: #2d6a4f;
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__title {
+    color: #2d6a4f;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+
+  &__input,
+  &__textarea {
+    margin-left: 5px;
+    padding: 15px;
+    border: 1px solid #d4edda;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: inherit;
+    background: #ffffff;
+    color: #1b4332;
+    outline: none;
+    width: 100%;
+
+    &:focus {
+      border-color: #2d6a4f;
+      box-shadow: 0 0 0 4px rgba(45, 106, 79, 0.1);
+    }
+  }
+
+  &__textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 200px;
+    height: 50px;
+    background: #2d6a4f;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(45, 106, 79, 0.25);
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: #e9f5eb;
+      color: #1b4332;
+    }
+  }
+}
