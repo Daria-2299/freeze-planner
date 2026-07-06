@@ -1,11 +1,13 @@
 import Header from "./components/Header/Header";
-import RecipeList from "./components/recipeList/RecipeList";
+// import RecipeList from "./components/recipeList/RecipeList";
+import RecipeInfo from "./components/recipeInfo/RecipeInfo";
 
 function App() {
   return (
     <>
       <Header />
-      <RecipeList />
+      {/* <RecipeList /> */}
+      <RecipeInfo />
     </>
   );
 }
