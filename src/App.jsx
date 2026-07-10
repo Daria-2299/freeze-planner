@@ -1,7 +1,8 @@
 import Header from "./components/Header/Header";
 // import RecipeList from "./components/recipeList/RecipeList";
 // import RecipeInfo from "./components/recipeInfo/RecipeInfo";
-import FeedbackForm from "./components/feedbackForm/FeedbackForm";
+// import FeedbackForm from "./components/feedbackForm/FeedbackForm";
+import PlannerPage from "./pages/plannerPage/PlannerPage";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <Header />
       {/* <RecipeList /> */}
       {/* <RecipeInfo /> */}
-      <FeedbackForm />
+      {/* <FeedbackForm /> */}
+      <PlannerPage />
     </>
   );
 }
