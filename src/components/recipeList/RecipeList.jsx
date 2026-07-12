@@ -150,9 +150,12 @@ const recipeList = () => {
 
   return (
     <div className={classes.wrapper}>
-      {recipes.map((recipe) => (
-        <RecipeCard key={recipe.id} recipe={recipe} />
-      ))}
+      <h1 className={classes.title}>Список рецептов</h1>
+      <div className={classes.list}>
+        {recipes.map((recipe) => (
+          <RecipeCard key={recipe.id} recipe={recipe} />
+        ))}
+      </div>
     </div>
   );
 };

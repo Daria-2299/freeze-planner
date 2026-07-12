@@ -1,6 +1,19 @@
 .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px 50px;
+}
+
+.title {
+  font-size: 40px;
+  letter-spacing: 0.4px;
+  color: #2d6a4f;
+  font-weight: 600;
+}
+
+.list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
-  margin: 10px 50px;
 }
