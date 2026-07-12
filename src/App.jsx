@@ -1,17 +1,18 @@
+import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
-import RecipeList from "./components/recipeList/RecipeList";
-// import RecipeInfo from "./components/recipeInfo/RecipeInfo";
-// import FeedbackForm from "./components/feedbackForm/FeedbackForm";
-// import PlannerPage from "./pages/plannerPage/PlannerPage";
+import RecipesPage from "./pages/recipesPage/RecipesPage";
+import PlannerPage from "./pages/plannerPage/PlannerPage";
+import FeedbackPage from "./pages/FeedbackPage";
 
 function App() {
   return (
     <>
       <Header />
-      <RecipeList />
-      {/* <RecipeInfo /> */}
-      {/* <FeedbackForm /> */}
-      {/* <PlannerPage /> */}
+      <Routes>
+        <Route path="/" element={<RecipesPage />} />
+        <Route path="/planner" element={<PlannerPage />} />
+        <Route path="/feedback" element={<FeedbackPage />} />
+      </Routes>
     </>
   );
 }
