@@ -1,4 +1,4 @@
-import "./recipeCard.scss";
+import classes from "./recipeCard.module.scss";
 
 const RecipeCard = ({ recipe }) => {
   const ingredientStr = recipe.ingredients
@@ -17,19 +17,19 @@ const RecipeCard = ({ recipe }) => {
 
   return (
     <>
-      <div className="recipe-card">
-        <div className="image-wrapper">
-          <img className="image" src={recipe.imageUrl} />
+      <div className={classes["recipe-card"]}>
+        <div className={classes["image-wrapper"]}>
+          <img className={classes["image"]} src={recipe.imageUrl} />
         </div>
-        <div className="recipe-card__content">
-          <h3 className="recipe-card__title">{recipe.title}</h3>
-          <h className="recipe-card__ingredients">
-            <span className="recipe-card__ingredients--bold">
+        <div className={classes["recipe-card__content"]}>
+          <h3 className={classes["recipe-card__title"]}>{recipe.title}</h3>
+          <h className={classes["recipe-card__ingredients"]}>
+            <span className={classes["recipe-card__ingredients--bold"]}>
               Ингредиенты:{" "}
             </span>
             {ingredientStr}
           </h>
-          <button className="recipe-card__button">
+          <button className={classes["recipe-card__button"]}>
             Добавить в планировщик
           </button>
         </div>

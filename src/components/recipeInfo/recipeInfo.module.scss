@@ -3,8 +3,8 @@
   flex-direction: column;
   gap: 30px;
   width: 75%;
-  margin: 50px auto;
-  padding: 40px;
+  margin: 20px auto;
+  padding: 30px;
   border: 1px solid #d4edda;
   border-radius: 50px;
   box-shadow: 0 2px 12px rgba(40, 167, 69, 0.06);
@@ -15,12 +15,13 @@
   &__header {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
   }
 
   &__top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-bottom: 15px;
     border-bottom: 2px solid #d4edda;
   }
@@ -33,7 +34,7 @@
 
   &__title {
     font-weight: 500;
-    font-size: 44px;
+    font-size: 40px;
     letter-spacing: 0.4px;
     color: #1b4332;
   }
@@ -44,7 +45,6 @@
   gap: 50px;
   color: #2d6a4f;
   font-size: 20px;
-  font-weight: 500;
 
   &__icon {
     display: block;
@@ -83,15 +83,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: #2d6a4f;
     border: none;
     border-radius: 50px;
     box-shadow: 0 4px 12px rgba(45, 106, 79, 0.25);
     color: #ffffff;
     font-size: 28px;
-    font-weight: 300;
     cursor: pointer;
     transition: all 0.3s ease;
 
@@ -103,7 +102,7 @@
 
   &__value {
     background-color: inherit;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 500;
     color: #1b4332;
   }
@@ -130,11 +129,12 @@
   padding: 25px;
   border: 1px solid #d4edda;
   border-radius: 30px;
+
   &__title {
     padding-bottom: 15px;
     border-bottom: 2px solid #d4edda;
-    font-weight: 500;
     font-size: 28px;
+    font-weight: 500;
     color: #1b4332;
     letter-spacing: 0.4px;
   }

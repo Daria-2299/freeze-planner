@@ -1,4 +1,4 @@
-import "./recipeInfo.scss";
+import classes from "./recipeInfo.module.scss";
 
 import clockIcon from "../../assets/icons/clock-icon.png";
 import plateIcon from "../../assets/icons/plate-icon.png";
@@ -38,37 +38,38 @@ const RecipeInfo = () => {
   };
 
   return (
-    <div class="recipe-info">
-      <div className="recipe-info__header">
-        <div className="recipe-info__top">
-          <h2 className="recipe-info__title">{recipe.title}</h2>
-          <div class="portions-control">
-            <button class="portions-control__btn">+</button>
-            <span class="portions-control__value">{recipe.portions}</span>
-            <button class="portions-control__btn">-</button>
+    <div class={classes["recipe-info"]}>
+      <div className={classes["recipe-info__header"]}>
+        <div className={classes["recipe-info__top"]}>
+          <h2 className={classes["recipe-info__title"]}>{recipe.title}</h2>
+          <div class={classes["portions-control"]}>
+            <button class={classes["portions-control__btn"]}>+</button>
+            <span class={classes["portions-control__value"]}>
+              {recipe.portions}
+            </span>
+            <button class={classes["portions-control__btn"]}>-</button>
           </div>
         </div>
-        <div className="info-block">
-          <p className="info-block__cooking-time">
-            <img src={clockIcon} className="info-block__icon" />
+        <div className={classes["info-block"]}>
+          <p className={classes["info-block__cooking-time"]}>
+            <img src={clockIcon} className={classes["info-block__icon"]} />
             {recipe.cookingTime} мин
           </p>
-          <p className="info-block__portions">
-            <img src={plateIcon} className="info-block__icon" />
+          <p className={classes["info-block__portions"]}>
+            <img src={plateIcon} className={classes["info-block__icon"]} />
             Порции: {recipe.portions}
           </p>
-          <p></p>
         </div>
       </div>
-      <div className="recipe-info__main">
-        <div className="image-wrapper">
-          <img src={recipe.imageUrl} className="image" />
+      <div className={classes["recipe-info__main"]}>
+        <div className={classes["image-wrapper"]}>
+          <img src={recipe.imageUrl} className={classes["image"]} />
         </div>
-        <div className="ingredients">
-          <h3 className="ingredients__title">Ингредиенты</h3>
-          <ul className="ingredients__list">
+        <div className={classes["ingredients"]}>
+          <h3 className={classes["ingredients__title"]}>Ингредиенты</h3>
+          <ul className={classes["ingredients__list"]}>
             {recipe.ingredients.map((ingredient, index) => (
-              <li key={index} className="ingredients__item">
+              <li key={index} className={classes["ingredients__item"]}>
                 <p>{ingredient.title}</p>
                 <p>
                   {" "}
@@ -79,11 +80,11 @@ const RecipeInfo = () => {
           </ul>
         </div>
       </div>
-      <div className="preparation">
-        <h3 className="preparation__title">Приготовление</h3>
-        <ul className="preparation__list">
+      <div className={classes["preparation"]}>
+        <h3 className={classes["preparation__title"]}>Приготовление</h3>
+        <ul className={classes["preparation__list"]}>
           {recipe.preparation.map((step, index) => (
-            <li key={index} className="preparation__step">
+            <li key={index} className={classes["preparation__step"]}>
               {step}
             </li>
           ))}

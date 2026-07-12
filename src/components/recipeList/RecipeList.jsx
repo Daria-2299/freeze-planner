@@ -1,6 +1,6 @@
 import RecipeCard from "../recipeCard/recipeCard";
 
-import "./recipeList.scss";
+import classes from "./recipeList.module.scss";
 
 const recipeList = () => {
   const recipes = [
@@ -149,7 +149,7 @@ const recipeList = () => {
   ];
 
   return (
-    <div className="wrapper">
+    <div className={classes.wrapper}>
       {recipes.map((recipe) => (
         <RecipeCard key={recipe.id} recipe={recipe} />
       ))}

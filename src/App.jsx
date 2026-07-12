@@ -1,17 +1,17 @@
 import Header from "./components/Header/Header";
-// import RecipeList from "./components/recipeList/RecipeList";
+import RecipeList from "./components/recipeList/RecipeList";
 // import RecipeInfo from "./components/recipeInfo/RecipeInfo";
 // import FeedbackForm from "./components/feedbackForm/FeedbackForm";
-import PlannerPage from "./pages/plannerPage/PlannerPage";
+// import PlannerPage from "./pages/plannerPage/PlannerPage";
 
 function App() {
   return (
     <>
       <Header />
-      {/* <RecipeList /> */}
+      <RecipeList />
       {/* <RecipeInfo /> */}
       {/* <FeedbackForm /> */}
-      <PlannerPage />
+      {/* <PlannerPage /> */}
     </>
   );
 }
