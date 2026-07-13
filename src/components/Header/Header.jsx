@@ -18,7 +18,7 @@ const Header = () => {
   ];
 
   const location = useLocation();
-  console.log("location", location);
+
   return (
     <div className={classes["header"]}>
       <nav className={classes["navigation"]}>
