@@ -3,3 +3,24 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
+
+.button {
+  width: 250px;
+  height: 45px;
+  margin: 30px auto;
+  padding: 0 10px;
+  border: none;
+  border-radius: 50px;
+  background: #2d6a4f;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  &:hover {
+    background: #e9f5eb;
+    color: #2d6a4f;
+    box-shadow: 0 4px 12px rgba(45, 106, 79, 0.25);
+  }
+}
