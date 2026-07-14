@@ -1,6 +1,6 @@
 import RecipeList from "../../components/recipeList/RecipeList";
 
-import classes from "./recipePage.module.scss";
+import classes from "./recipesPage.module.scss";
 
 const RecipesPage = () => {
   return (

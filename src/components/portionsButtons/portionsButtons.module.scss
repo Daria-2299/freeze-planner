@@ -1,0 +1,38 @@
+.portions-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  padding: 5px;
+  background: #e9f5eb;
+  border: 1px solid #d4edda;
+  border-radius: 50px;
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #2d6a4f;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(45, 106, 79, 0.25);
+    color: #ffffff;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: #e9f5eb;
+      color: #1b4332;
+    }
+  }
+
+  &__value {
+    background-color: inherit;
+    font-size: 26px;
+    font-weight: 500;
+    color: #1b4332;
+  }
+}
