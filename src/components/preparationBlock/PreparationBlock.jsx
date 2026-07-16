@@ -5,7 +5,7 @@ const PreparationBlock = ({ recipe }) => {
     <div className={classes["preparation"]}>
       <h3 className={classes["preparation__title"]}>Приготовление</h3>
       <ul className={classes["preparation__list"]}>
-        {recipe.preparation.map((step, index) => (
+        {recipe.preparation?.map((step, index) => (
           <li key={index} className={classes["preparation__step"]}>
             {step}
           </li>
