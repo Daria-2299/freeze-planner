@@ -1,4 +1,7 @@
 import { useParams } from "react-router-dom";
+import { useEffect, useState, useMemo } from "react";
+
+import { useLocalStorage } from "../../hooks/useLocalStorage.hook";
 
 import PreparationBlock from "../../components/preparationBlock/preparationBlock";
 import IngredientsBlock from "../../components/ingredientsBlock/IngredientsBlock";
@@ -6,12 +9,20 @@ import PortionsButtons from "../../components/portionsButtons/PortionsButtons";
 import RecipeInfo from "../../components/recipeInfo/RecipeInfo";
 
 import classes from "./recipePage.module.scss";
-import { useEffect, useState } from "react";
 
 const RecipePage = () => {
   const { recipeId } = useParams();
+  const {
+    isRecipeInPlanner,
+    changePortions,
+    getRecipeById,
+    addRecipe,
+    removeRecipe,
+  } = useLocalStorage();
 
-  const [recipe, setRecipe] = useState({});
+  const [loading, setLoading] = useState(true);
+  const [recipeList, setRecipeList] = useState([]);
+  const [isInPlanner, setIsInPlanner] = useState(isRecipeInPlanner(+recipeId));
 
   useEffect(() => {
     fetch("/data/recipes.json")
@@ -20,16 +31,55 @@ const RecipePage = () => {
         return res.json();
       })
       .then((data) => {
-        setRecipe(data[+recipeId - 1]);
+        setRecipeList(data);
+        setLoading(false);
       });
-  }, [recipeId]);
+  }, []);
+
+  const recipe = useMemo(() => {
+    if (isInPlanner) {
+      return getRecipeById(+recipeId);
+    }
+    return recipeList.find((recipe) => recipe.id === +recipeId);
+  }, [isInPlanner, recipeList, recipeId, getRecipeById]);
+
+  const handlePlannerClick = (event) => {
+    event.stopPropagation();
+    isInPlanner ? removeRecipe(recipe.id) : addRecipe(recipe);
+    isInPlanner ? setIsInPlanner(false) : setIsInPlanner(true);
+  };
+
+  if (loading) {
+    return <div>Загрузка...</div>;
+  }
 
   return (
     <div className={classes["recipe-info"]}>
       <div className={classes["recipe-info__header"]}>
         <div className={classes["recipe-info__top"]}>
           <h2 className={classes["recipe-info__title"]}>{recipe.title}</h2>
-          <PortionsButtons portions={recipe.portions} />
+          {isInPlanner ? (
+            <div className={classes["buttons"]}>
+              <PortionsButtons
+                portions={recipe.portions}
+                onChangePortions={changePortions}
+                recipeId={recipe.id}
+              />
+              <button
+                className={classes["recipe-info__button"]}
+                onClick={handlePlannerClick}
+              >
+                Удалить
+              </button>
+            </div>
+          ) : (
+            <button
+              className={classes["recipe-info__button"]}
+              onClick={handlePlannerClick}
+            >
+              Добавить в планировщик
+            </button>
+          )}
         </div>
         <RecipeInfo
           cookingTime={recipe.cookingTime}

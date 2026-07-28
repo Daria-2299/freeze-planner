@@ -41,7 +41,13 @@ export const useLocalStorage = () => {
       ),
     );
   };
-  
+
+  const getRecipeById = (recipeId) => {
+    if (isRecipeInPlanner(recipeId))
+      return plannerRecipes.find((recipe) => recipe.id === recipeId);
+    else return {};
+  };
+
   return {
     plannerRecipes,
     setPlannerRecipes,
@@ -49,5 +55,6 @@ export const useLocalStorage = () => {
     addRecipe,
     removeRecipe,
     changePortions,
+    getRecipeById,
   };
 };
