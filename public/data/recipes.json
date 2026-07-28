@@ -47,28 +47,28 @@
     "portions": 8,
     "ingredients": [
       {
-        "id": 1,
+        "id": 9,
         "title": "Листы для лазаньи (сухие)",
         "weight": 250,
         "measure": "г"
       },
-      { "id": 2, "title": "Фарш говяжий", "weight": 500, "measure": "г" },
-      { "id": 3, "title": "Лук репчатый", "weight": 150, "measure": "г" },
-      { "id": 4, "title": "Морковь", "weight": 100, "measure": "г" },
+      { "id": 10, "title": "Фарш говяжий", "weight": 500, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 150, "measure": "г" },
+      { "id": 11, "title": "Морковь", "weight": 100, "measure": "г" },
       {
-        "id": 5,
+        "id": 12,
         "title": "Томаты в собственном соку",
         "weight": 400,
         "measure": "г"
       },
-      { "id": 6, "title": "Томатная паста", "weight": 50, "measure": "г" },
-      { "id": 7, "title": "Сыр моцарелла", "weight": 200, "measure": "г" },
-      { "id": 8, "title": "Молоко", "weight": 500, "measure": "мл" },
-      { "id": 9, "title": "Масло сливочное", "weight": 50, "measure": "г" },
-      { "id": 10, "title": "Мука пшеничная", "weight": 40, "measure": "г" },
-      { "id": 11, "title": "Пармезан", "weight": 50, "measure": "г" },
-      { "id": 12, "title": "Орегано сушеный", "weight": 5, "measure": "г" },
-      { "id": 13, "title": "Соль, перец", "weight": 8, "measure": "г" }
+      { "id": 13, "title": "Томатная паста", "weight": 50, "measure": "г" },
+      { "id": 14, "title": "Сыр моцарелла", "weight": 200, "measure": "г" },
+      { "id": 15, "title": "Молоко", "weight": 500, "measure": "мл" },
+      { "id": 16, "title": "Масло сливочное", "weight": 50, "measure": "г" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 40, "measure": "г" },
+      { "id": 18, "title": "Пармезан", "weight": 50, "measure": "г" },
+      { "id": 19, "title": "Орегано сушеный", "weight": 5, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 8, "measure": "г" }
     ],
     "preparation": [
       "Для мясного соуса: мелко нарежьте лук и морковь, обжарьте на растительном масле до мягкости (5-7 минут).",
@@ -94,26 +94,21 @@
     "weight": 80,
     "portions": 10,
     "ingredients": [
-      { "id": 1, "title": "Молоко", "weight": 500, "measure": "мл" },
-      { "id": 2, "title": "Мука пшеничная", "weight": 200, "measure": "г" },
+      { "id": 15, "title": "Молоко", "weight": 500, "measure": "мл" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 200, "measure": "г" },
       { "id": 3, "title": "Яйца куриные", "weight": 2, "measure": "шт." },
-      { "id": 4, "title": "Сахар", "weight": 15, "measure": "г" },
-      { "id": 5, "title": "Соль", "weight": 3, "measure": "г" },
-      { "id": 6, "title": "Ветчина", "weight": 250, "measure": "г" },
+      { "id": 21, "title": "Сахар", "weight": 15, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 3, "measure": "г" },
+      { "id": 22, "title": "Ветчина", "weight": 250, "measure": "г" },
+      { "id": 23, "title": "Сыр твердый", "weight": 250, "measure": "г" },
       {
-        "id": 7,
-        "title": "Сыр твердый (например, гауда)",
-        "weight": 250,
-        "measure": "г"
-      },
-      {
-        "id": 8,
+        "id": 24,
         "title": "Масло сливочное для смазки",
         "weight": 30,
         "measure": "г"
       },
       {
-        "id": 9,
+        "id": 25,
         "title": "Укроп свежий (по желанию)",
         "weight": 10,
         "measure": "г"
@@ -142,19 +137,19 @@
     "weight": 70,
     "portions": 8,
     "ingredients": [
-      { "id": 1, "title": "Творог (9-18%)", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Мука пшеничная", "weight": 100, "measure": "г" },
+      { "id": 26, "title": "Творог (9-18%)", "weight": 500, "measure": "г" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 100, "measure": "г" },
       { "id": 3, "title": "Яйца куриные", "weight": 2, "measure": "шт." },
-      { "id": 4, "title": "Сахар", "weight": 60, "measure": "г" },
-      { "id": 5, "title": "Ванильный сахар", "weight": 10, "measure": "г" },
+      { "id": 21, "title": "Сахар", "weight": 60, "measure": "г" },
+      { "id": 28, "title": "Ванильный сахар", "weight": 10, "measure": "г" },
       {
-        "id": 6,
+        "id": 7,
         "title": "Масло растительное для жарки",
         "weight": 40,
         "measure": "мл"
       },
-      { "id": 7, "title": "Мука для панировки", "weight": 50, "measure": "г" },
-      { "id": 8, "title": "Соль", "weight": 3, "measure": "г" }
+      { "id": 27, "title": "Мука для панировки", "weight": 50, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 3, "measure": "г" }
     ],
     "preparation": [
       "Творог протрите через сито или измельчите блендером для получения однородной массы без комков.",
@@ -180,18 +175,18 @@
     "weight": 90,
     "portions": 12,
     "ingredients": [
-      { "id": 1, "title": "Мука пшеничная", "weight": 400, "measure": "г" },
-      { "id": 2, "title": "Вода теплая", "weight": 250, "measure": "мл" },
-      { "id": 3, "title": "Дрожжи сухие", "weight": 7, "measure": "г" },
-      { "id": 4, "title": "Сахар", "weight": 10, "measure": "г" },
-      { "id": 5, "title": "Соль", "weight": 5, "measure": "г" },
-      { "id": 6, "title": "Масло оливковое", "weight": 30, "measure": "мл" },
-      { "id": 7, "title": "Соус томатный", "weight": 200, "measure": "г" },
-      { "id": 8, "title": "Колбаса/ветчина", "weight": 250, "measure": "г" },
-      { "id": 9, "title": "Сыр моцарелла", "weight": 300, "measure": "г" },
-      { "id": 10, "title": "Помидоры черри", "weight": 150, "measure": "г" },
-      { "id": 11, "title": "Орегано сушеный", "weight": 5, "measure": "г" },
-      { "id": 12, "title": "Базилик сушеный", "weight": 5, "measure": "г" }
+      { "id": 17, "title": "Мука пшеничная", "weight": 400, "measure": "г" },
+      { "id": 29, "title": "Вода теплая", "weight": 250, "measure": "мл" },
+      { "id": 30, "title": "Дрожжи сухие", "weight": 7, "measure": "г" },
+      { "id": 21, "title": "Сахар", "weight": 10, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 5, "measure": "г" },
+      { "id": 31, "title": "Масло оливковое", "weight": 30, "measure": "мл" },
+      { "id": 32, "title": "Соус томатный", "weight": 200, "measure": "г" },
+      { "id": 33, "title": "Колбаса/ветчина", "weight": 250, "measure": "г" },
+      { "id": 14, "title": "Сыр моцарелла", "weight": 300, "measure": "г" },
+      { "id": 34, "title": "Помидоры черри", "weight": 150, "measure": "г" },
+      { "id": 19, "title": "Орегано сушеный", "weight": 5, "measure": "г" },
+      { "id": 35, "title": "Базилик сушеный", "weight": 5, "measure": "г" }
     ],
     "preparation": [
       "Для теста: растворите дрожжи и сахар в теплой воде, оставьте на 10 минут до появления пенной шапки.",
@@ -219,25 +214,25 @@
     "portions": 6,
     "ingredients": [
       {
-        "id": 1,
+        "id": 36,
         "title": "Перец сладкий болгарский",
         "weight": 600,
         "measure": "г"
       },
-      { "id": 2, "title": "Рис круглозерный", "weight": 150, "measure": "г" },
+      { "id": 37, "title": "Рис круглозерный", "weight": 150, "measure": "г" },
       {
-        "id": 3,
+        "id": 38,
         "title": "Фарш мясной (свинина+говядина)",
         "weight": 400,
         "measure": "г"
       },
-      { "id": 4, "title": "Лук репчатый", "weight": 120, "measure": "г" },
-      { "id": 5, "title": "Морковь", "weight": 120, "measure": "г" },
-      { "id": 6, "title": "Томатная паста", "weight": 60, "measure": "г" },
-      { "id": 7, "title": "Сметана 20%", "weight": 100, "measure": "г" },
-      { "id": 8, "title": "Соль", "weight": 6, "measure": "г" },
-      { "id": 9, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
-      { "id": 10, "title": "Масло растительное", "weight": 20, "measure": "мл" }
+      { "id": 2, "title": "Лук репчатый", "weight": 120, "measure": "г" },
+      { "id": 11, "title": "Морковь", "weight": 120, "measure": "г" },
+      { "id": 13, "title": "Томатная паста", "weight": 60, "measure": "г" },
+      { "id": 39, "title": "Сметана 20%", "weight": 100, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 6, "measure": "г" },
+      { "id": 6, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 20, "measure": "мл" }
     ],
     "preparation": [
       "Рис отварите до полуготовности (около 10 минут в подсоленной воде), откиньте на дуршлаг.",
@@ -263,22 +258,22 @@
     "weight": 50,
     "portions": 10,
     "ingredients": [
-      { "id": 1, "title": "Кабачок молодой", "weight": 350, "measure": "г" },
-      { "id": 2, "title": "Морковь", "weight": 100, "measure": "г" },
-      { "id": 3, "title": "Мука пшеничная", "weight": 80, "measure": "г" },
-      { "id": 4, "title": "Яйца куриные", "weight": 2, "measure": "шт." },
-      { "id": 5, "title": "Сыр твердый", "weight": 80, "measure": "г" },
-      { "id": 6, "title": "Чеснок", "weight": 10, "measure": "г" },
-      { "id": 7, "title": "Соль", "weight": 5, "measure": "г" },
-      { "id": 8, "title": "Перец черный молотый", "weight": 2, "measure": "г" },
+      { "id": 41, "title": "Кабачок молодой", "weight": 350, "measure": "г" },
+      { "id": 11, "title": "Морковь", "weight": 100, "measure": "г" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 80, "measure": "г" },
+      { "id": 3, "title": "Яйца куриные", "weight": 2, "measure": "шт." },
+      { "id": 42, "title": "Сыр твердый", "weight": 80, "measure": "г" },
+      { "id": 8, "title": "Чеснок", "weight": 10, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 5, "measure": "г" },
+      { "id": 6, "title": "Перец черный молотый", "weight": 2, "measure": "г" },
       {
-        "id": 9,
-        "title": "Масло растительное для смазки",
+        "id": 7,
+        "title": "Масло растительное для жарки",
         "weight": 10,
         "measure": "мл"
       },
       {
-        "id": 10,
+        "id": 43,
         "title": "Зелень свежая (укроп/петрушка)",
         "weight": 15,
         "measure": "г"
@@ -311,18 +306,18 @@
       { "id": 1, "title": "Куриное филе", "weight": 500, "measure": "г" },
       { "id": 2, "title": "Лук репчатый", "weight": 100, "measure": "г" },
       { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 4, "title": "Майонез/сметана", "weight": 50, "measure": "г" },
+      { "id": 44, "title": "Майонез/сметана", "weight": 50, "measure": "г" },
       {
-        "id": 5,
+        "id": 45,
         "title": "Крахмал картофельный",
         "weight": 40,
         "measure": "г"
       },
-      { "id": 6, "title": "Соль", "weight": 5, "measure": "г" },
-      { "id": 7, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
-      { "id": 8, "title": "Паприка", "weight": 5, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 5, "measure": "г" },
+      { "id": 6, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
+      { "id": 46, "title": "Паприка", "weight": 5, "measure": "г" },
       {
-        "id": 9,
+        "id": 7,
         "title": "Масло растительное для жарки",
         "weight": 30,
         "measure": "мл"
@@ -353,20 +348,20 @@
     "portions": 8,
     "ingredients": [
       {
-        "id": 1,
+        "id": 47,
         "title": "Капуста белокочанная",
         "weight": 800,
         "measure": "г"
       },
-      { "id": 2, "title": "Фарш мясной", "weight": 450, "measure": "г" },
-      { "id": 3, "title": "Рис круглозерный", "weight": 120, "measure": "г" },
-      { "id": 4, "title": "Лук репчатый", "weight": 120, "measure": "г" },
-      { "id": 5, "title": "Морковь", "weight": 120, "measure": "г" },
-      { "id": 6, "title": "Томатный сок", "weight": 300, "measure": "мл" },
-      { "id": 7, "title": "Сметана 20%", "weight": 100, "measure": "г" },
-      { "id": 8, "title": "Соль", "weight": 6, "measure": "г" },
-      { "id": 9, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
-      { "id": 10, "title": "Масло растительное", "weight": 20, "measure": "мл" }
+      { "id": 48, "title": "Фарш мясной", "weight": 450, "measure": "г" },
+      { "id": 37, "title": "Рис круглозерный", "weight": 120, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 120, "measure": "г" },
+      { "id": 11, "title": "Морковь", "weight": 120, "measure": "г" },
+      { "id": 49, "title": "Томатный сок", "weight": 300, "measure": "мл" },
+      { "id": 39, "title": "Сметана 20%", "weight": 100, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 6, "measure": "г" },
+      { "id": 6, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 20, "measure": "мл" }
     ],
     "preparation": [
       "Снимите с капусты 10-12 целых листьев, аккуратно вырезая кочерыжку. Бланшируйте листья в кипящей подсоленной воде по 1-2 минуты до мягкости.",
@@ -392,16 +387,16 @@
     "weight": 100,
     "portions": 10,
     "ingredients": [
-      { "id": 1, "title": "Фарш говяжий", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Рис", "weight": 100, "measure": "г" },
-      { "id": 3, "title": "Лук репчатый", "weight": 100, "measure": "г" },
-      { "id": 4, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 5, "title": "Соль", "weight": 6, "measure": "г" },
+      { "id": 50, "title": "Фарш говяжий", "weight": 500, "measure": "г" },
+      { "id": 37, "title": "Рис круглозерный", "weight": 100, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 100, "measure": "г" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 5, "title": "Соль поваренная", "weight": 6, "measure": "г" },
       { "id": 6, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
-      { "id": 7, "title": "Сметана 20%", "weight": 200, "measure": "г" },
-      { "id": 8, "title": "Мука пшеничная", "weight": 20, "measure": "г" },
-      { "id": 9, "title": "Вода", "weight": 250, "measure": "мл" },
-      { "id": 10, "title": "Масло растительное", "weight": 20, "measure": "мл" }
+      { "id": 39, "title": "Сметана 20%", "weight": 200, "measure": "г" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 20, "measure": "г" },
+      { "id": 51, "title": "Вода", "weight": 250, "measure": "мл" },
+      { "id": 40, "title": "Масло растительное", "weight": 20, "measure": "мл" }
     ],
     "preparation": [
       "Отварите рис до полуготовности (8-10 минут), откиньте на дуршлаг и остудите.",
@@ -426,15 +421,15 @@
     "weight": 80,
     "portions": 10,
     "ingredients": [
-      { "id": 1, "title": "Картофель", "weight": 800, "measure": "г" },
+      { "id": 52, "title": "Картофель", "weight": 800, "measure": "г" },
       { "id": 2, "title": "Лук репчатый", "weight": 120, "measure": "г" },
       { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 4, "title": "Мука пшеничная", "weight": 60, "measure": "г" },
-      { "id": 5, "title": "Соль", "weight": 6, "measure": "г" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 60, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 6, "measure": "г" },
       { "id": 6, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
-      { "id": 7, "title": "Чеснок (по желанию)", "weight": 10, "measure": "г" },
+      { "id": 8, "title": "Чеснок", "weight": 10, "measure": "г" },
       {
-        "id": 8,
+        "id": 7,
         "title": "Масло растительное для жарки",
         "weight": 50,
         "measure": "мл"
@@ -464,20 +459,20 @@
     "ingredients": [
       { "id": 1, "title": "Куриное филе", "weight": 400, "measure": "г" },
       {
-        "id": 2,
+        "id": 4,
         "title": "Панировочные сухари",
         "weight": 100,
         "measure": "г"
       },
       { "id": 3, "title": "Яйца куриные", "weight": 2, "measure": "шт." },
-      { "id": 4, "title": "Мука пшеничная", "weight": 60, "measure": "г" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 60, "measure": "г" },
       {
-        "id": 5,
+        "id": 53,
         "title": "Специи для курицы (паприка, чеснок, перец)",
         "weight": 10,
         "measure": "г"
       },
-      { "id": 6, "title": "Соль", "weight": 5, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 5, "measure": "г" },
       {
         "id": 7,
         "title": "Масло растительное для жарки",
@@ -507,17 +502,17 @@
     "weight": 100,
     "portions": 12,
     "ingredients": [
-      { "id": 1, "title": "Мука пшеничная", "weight": 400, "measure": "г" },
-      { "id": 2, "title": "Вода теплая", "weight": 200, "measure": "мл" },
-      { "id": 3, "title": "Яйцо", "weight": 1, "measure": "шт." },
-      { "id": 4, "title": "Соль для теста", "weight": 3, "measure": "г" },
-      { "id": 5, "title": "Фарш мясной", "weight": 300, "measure": "г" },
-      { "id": 6, "title": "Тыква", "weight": 300, "measure": "г" },
-      { "id": 7, "title": "Лук репчатый", "weight": 150, "measure": "г" },
-      { "id": 8, "title": "Соль, перец", "weight": 6, "measure": "г" },
-      { "id": 9, "title": "Зира (кумин)", "weight": 3, "measure": "г" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 400, "measure": "г" },
+      { "id": 29, "title": "Вода теплая", "weight": 200, "measure": "мл" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 5, "title": "Соль поваренная", "weight": 3, "measure": "г" },
+      { "id": 48, "title": "Фарш мясной", "weight": 300, "measure": "г" },
+      { "id": 54, "title": "Тыква", "weight": 300, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 150, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 6, "measure": "г" },
+      { "id": 55, "title": "Зира (кумин)", "weight": 3, "measure": "г" },
       {
-        "id": 10,
+        "id": 24,
         "title": "Масло сливочное для смазки",
         "weight": 30,
         "measure": "г"
@@ -549,14 +544,14 @@
     "portions": 10,
     "ingredients": [
       { "id": 1, "title": "Куриное филе", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Сливки 10%", "weight": 100, "measure": "мл" },
+      { "id": 56, "title": "Сливки 10%", "weight": 100, "measure": "мл" },
       { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 4, "title": "Паприка сладкая", "weight": 10, "measure": "г" },
-      { "id": 5, "title": "Чеснок", "weight": 15, "measure": "г" },
-      { "id": 6, "title": "Соль", "weight": 6, "measure": "г" },
-      { "id": 7, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
-      { "id": 8, "title": "Мускатный орех", "weight": 2, "measure": "г" },
-      { "id": 9, "title": "Пищевая пленка", "weight": 1, "measure": "шт." }
+      { "id": 46, "title": "Паприка", "weight": 10, "measure": "г" },
+      { "id": 8, "title": "Чеснок", "weight": 15, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 6, "measure": "г" },
+      { "id": 6, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
+      { "id": 57, "title": "Мускатный орех", "weight": 2, "measure": "г" },
+      { "id": 58, "title": "Пищевая пленка", "weight": 1, "measure": "шт." }
     ],
     "preparation": [
       "Куриное филе нарежьте на куски и измельчите в блендере до состояния пасты.",
@@ -582,16 +577,16 @@
     "weight": 110,
     "portions": 8,
     "ingredients": [
-      { "id": 1, "title": "Картофель", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Шампиньоны", "weight": 300, "measure": "г" },
-      { "id": 3, "title": "Лук репчатый", "weight": 150, "measure": "г" },
-      { "id": 4, "title": "Мука пшеничная", "weight": 60, "measure": "г" },
-      { "id": 5, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 6, "title": "Панировочные сухари", "weight": 80, "measure": "г" },
-      { "id": 7, "title": "Соль", "weight": 6, "measure": "г" },
-      { "id": 8, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
+      { "id": 52, "title": "Картофель", "weight": 500, "measure": "г" },
+      { "id": 59, "title": "Шампиньоны", "weight": 300, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 150, "measure": "г" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 60, "measure": "г" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 4, "title": "Панировочные сухари", "weight": 80, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 6, "measure": "г" },
+      { "id": 6, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
       {
-        "id": 9,
+        "id": 7,
         "title": "Масло растительное для жарки",
         "weight": 40,
         "measure": "мл"
@@ -621,15 +616,15 @@
     "weight": 75,
     "portions": 10,
     "ingredients": [
-      { "id": 1, "title": "Мука пшеничная", "weight": 300, "measure": "г" },
-      { "id": 2, "title": "Масло сливочное", "weight": 150, "measure": "г" },
-      { "id": 3, "title": "Сметана 20%", "weight": 100, "measure": "г" },
-      { "id": 4, "title": "Яйца куриные", "weight": 1, "measure": "шт." },
-      { "id": 5, "title": "Сахар", "weight": 80, "measure": "г" },
-      { "id": 6, "title": "Разрыхлитель", "weight": 5, "measure": "г" },
-      { "id": 7, "title": "Творог", "weight": 250, "measure": "г" },
-      { "id": 8, "title": "Ванильный сахар", "weight": 10, "measure": "г" },
-      { "id": 9, "title": "Соль", "weight": 2, "measure": "г" }
+      { "id": 17, "title": "Мука пшеничная", "weight": 300, "measure": "г" },
+      { "id": 16, "title": "Масло сливочное", "weight": 150, "measure": "г" },
+      { "id": 39, "title": "Сметана 20%", "weight": 100, "measure": "г" },
+      { "id": 3, "title": "Яйца куриные", "weight": 1, "measure": "шт." },
+      { "id": 21, "title": "Сахар", "weight": 80, "measure": "г" },
+      { "id": 60, "title": "Разрыхлитель", "weight": 5, "measure": "г" },
+      { "id": 26, "title": "Творог (9-18%)", "weight": 250, "measure": "г" },
+      { "id": 28, "title": "Ванильный сахар", "weight": 10, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 2, "measure": "г" }
     ],
     "preparation": [
       "Для теста: смешайте муку, разрыхлитель и соль. Добавьте холодное нарезанное масло и порубите в крошку.",
@@ -654,25 +649,20 @@
     "weight": 80,
     "portions": 15,
     "ingredients": [
-      { "id": 1, "title": "Мука пшеничная", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Вода", "weight": 200, "measure": "мл" },
-      { "id": 3, "title": "Яйцо", "weight": 1, "measure": "шт." },
-      { "id": 4, "title": "Соль для теста", "weight": 5, "measure": "г" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 500, "measure": "г" },
+      { "id": 51, "title": "Вода", "weight": 200, "measure": "мл" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 5, "title": "Соль поваренная", "weight": 5, "measure": "г" },
       {
-        "id": 5,
+        "id": 61,
         "title": "Фарш свинина+говядина",
         "weight": 500,
         "measure": "г"
       },
-      { "id": 6, "title": "Лук репчатый", "weight": 150, "measure": "г" },
-      { "id": 7, "title": "Чеснок", "weight": 10, "measure": "г" },
-      {
-        "id": 8,
-        "title": "Соль, перец для начинки",
-        "weight": 8,
-        "measure": "г"
-      },
-      { "id": 9, "title": "Вода ледяная", "weight": 50, "measure": "мл" }
+      { "id": 2, "title": "Лук репчатый", "weight": 150, "measure": "г" },
+      { "id": 8, "title": "Чеснок", "weight": 10, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 8, "measure": "г" },
+      { "id": 62, "title": "Вода ледяная", "weight": 50, "measure": "мл" }
     ],
     "preparation": [
       "Для теста: смешайте муку с солью, добавьте яйцо и теплую воду. Замесите крутое тесто, вымешивайте 10 минут до гладкости. Накройте и дайте отдохнуть 30 минут.",
@@ -696,15 +686,20 @@
     "weight": 85,
     "portions": 12,
     "ingredients": [
-      { "id": 1, "title": "Мука пшеничная", "weight": 400, "measure": "г" },
-      { "id": 2, "title": "Кефир", "weight": 200, "measure": "мл" },
-      { "id": 3, "title": "Яйцо", "weight": 1, "measure": "шт." },
-      { "id": 4, "title": "Соль для теста", "weight": 5, "measure": "г" },
-      { "id": 5, "title": "Картофель", "weight": 400, "measure": "г" },
-      { "id": 6, "title": "Грибы шампиньоны", "weight": 200, "measure": "г" },
-      { "id": 7, "title": "Лук репчатый", "weight": 100, "measure": "г" },
-      { "id": 8, "title": "Масло растительное", "weight": 20, "measure": "мл" },
-      { "id": 9, "title": "Соль, перец", "weight": 6, "measure": "г" }
+      { "id": 17, "title": "Мука пшеничная", "weight": 400, "measure": "г" },
+      { "id": 63, "title": "Кефир", "weight": 200, "measure": "мл" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 5, "title": "Соль поваренная", "weight": 5, "measure": "г" },
+      { "id": 52, "title": "Картофель", "weight": 400, "measure": "г" },
+      { "id": 59, "title": "Шампиньоны", "weight": 200, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 100, "measure": "г" },
+      {
+        "id": 40,
+        "title": "Масло растительное",
+        "weight": 20,
+        "measure": "мл"
+      },
+      { "id": 20, "title": "Соль, перец", "weight": 6, "measure": "г" }
     ],
     "preparation": [
       "Для теста: смешайте кефир, яйцо и соль. Постепенно добавляйте муку и замесите мягкое эластичное тесто. Накройте и дайте отдохнуть 20 минут.",
@@ -729,15 +724,15 @@
     "weight": 120,
     "portions": 10,
     "ingredients": [
-      { "id": 1, "title": "Творог (9-18%)", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Яйца куриные", "weight": 3, "measure": "шт." },
-      { "id": 3, "title": "Манная крупа", "weight": 60, "measure": "г" },
-      { "id": 4, "title": "Сахар", "weight": 80, "measure": "г" },
-      { "id": 5, "title": "Сметана 20%", "weight": 100, "measure": "г" },
-      { "id": 6, "title": "Изюм", "weight": 80, "measure": "г" },
-      { "id": 7, "title": "Ванильный сахар", "weight": 10, "measure": "г" },
+      { "id": 26, "title": "Творог (9-18%)", "weight": 500, "measure": "г" },
+      { "id": 3, "title": "Яйца куриные", "weight": 3, "measure": "шт." },
+      { "id": 64, "title": "Манная крупа", "weight": 60, "measure": "г" },
+      { "id": 21, "title": "Сахар", "weight": 80, "measure": "г" },
+      { "id": 39, "title": "Сметана 20%", "weight": 100, "measure": "г" },
+      { "id": 65, "title": "Изюм", "weight": 80, "measure": "г" },
+      { "id": 28, "title": "Ванильный сахар", "weight": 10, "measure": "г" },
       {
-        "id": 8,
+        "id": 66,
         "title": "Сливочное масло для смазки",
         "weight": 10,
         "measure": "г"
@@ -766,17 +761,22 @@
     "weight": 85,
     "portions": 10,
     "ingredients": [
-      { "id": 1, "title": "Молоко", "weight": 500, "measure": "мл" },
-      { "id": 2, "title": "Мука пшеничная", "weight": 180, "measure": "г" },
+      { "id": 15, "title": "Молоко", "weight": 500, "measure": "мл" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 180, "measure": "г" },
       { "id": 3, "title": "Яйца куриные", "weight": 2, "measure": "шт." },
-      { "id": 4, "title": "Сахар", "weight": 10, "measure": "г" },
-      { "id": 5, "title": "Соль", "weight": 3, "measure": "г" },
-      { "id": 6, "title": "Фарш мясной", "weight": 300, "measure": "г" },
-      { "id": 7, "title": "Лук репчатый", "weight": 100, "measure": "г" },
-      { "id": 8, "title": "Масло растительное", "weight": 30, "measure": "мл" },
+      { "id": 21, "title": "Сахар", "weight": 10, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 3, "measure": "г" },
+      { "id": 67, "title": "Фарш мясной", "weight": 300, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 100, "measure": "г" },
       {
-        "id": 9,
-        "title": "Сливочное масло для смазки",
+        "id": 40,
+        "title": "Масло растительное",
+        "weight": 30,
+        "measure": "мл"
+      },
+      {
+        "id": 24,
+        "title": "Масло сливочное для смазки",
         "weight": 20,
         "measure": "г"
       }
@@ -803,21 +803,21 @@
     "weight": 100,
     "portions": 15,
     "ingredients": [
-      { "id": 1, "title": "Мука пшеничная", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Вода теплая", "weight": 250, "measure": "мл" },
-      { "id": 3, "title": "Соль для теста", "weight": 5, "measure": "г" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 500, "measure": "г" },
+      { "id": 29, "title": "Вода теплая", "weight": 250, "measure": "мл" },
+      { "id": 5, "title": "Соль поваренная", "weight": 5, "measure": "г" },
       {
-        "id": 4,
-        "title": "Фарш баранина/говядина",
+        "id": 83,
+        "title": "Фарш мясной (баранина+говядина)",
         "weight": 500,
         "measure": "г"
       },
-      { "id": 5, "title": "Лук репчатый", "weight": 200, "measure": "г" },
-      { "id": 6, "title": "Чеснок", "weight": 15, "measure": "г" },
-      { "id": 7, "title": "Кинза свежая", "weight": 20, "measure": "г" },
-      { "id": 8, "title": "Зира", "weight": 3, "measure": "г" },
-      { "id": 9, "title": "Соль, перец", "weight": 8, "measure": "г" },
-      { "id": 10, "title": "Вода для начинки", "weight": 80, "measure": "мл" }
+      { "id": 2, "title": "Лук репчатый", "weight": 200, "measure": "г" },
+      { "id": 8, "title": "Чеснок", "weight": 15, "measure": "г" },
+      { "id": 68, "title": "Кинза свежая", "weight": 20, "measure": "г" },
+      { "id": 55, "title": "Зира (кумин)", "weight": 3, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 8, "measure": "г" },
+      { "id": 69, "title": "Вода для начинки", "weight": 80, "measure": "мл" }
     ],
     "preparation": [
       "Для теста: смешайте муку с солью, постепенно добавьте теплую воду и замесите тугое, эластичное тесто. Вымешивайте 10-15 минут. Накройте и дайте отдохнуть 30 минут.",
@@ -843,15 +843,15 @@
     "weight": 180,
     "portions": 6,
     "ingredients": [
-      { "id": 1, "title": "Баклажаны", "weight": 600, "measure": "г" },
-      { "id": 2, "title": "Фарш мясной", "weight": 300, "measure": "г" },
-      { "id": 3, "title": "Рис", "weight": 80, "measure": "г" },
-      { "id": 4, "title": "Лук репчатый", "weight": 80, "measure": "г" },
-      { "id": 5, "title": "Морковь", "weight": 80, "measure": "г" },
-      { "id": 6, "title": "Томатная паста", "weight": 40, "measure": "г" },
-      { "id": 7, "title": "Сыр моцарелла", "weight": 80, "measure": "г" },
-      { "id": 8, "title": "Соль, перец", "weight": 5, "measure": "г" },
-      { "id": 9, "title": "Масло растительное", "weight": 20, "measure": "мл" }
+      { "id": 70, "title": "Баклажаны", "weight": 600, "measure": "г" },
+      { "id": 48, "title": "Фарш мясной", "weight": 300, "measure": "г" },
+      { "id": 37, "title": "Рис круглозерный", "weight": 80, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 80, "measure": "г" },
+      { "id": 11, "title": "Морковь", "weight": 80, "measure": "г" },
+      { "id": 13, "title": "Томатная паста", "weight": 40, "measure": "г" },
+      { "id": 14, "title": "Сыр моцарелла", "weight": 80, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 5, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 20, "measure": "мл" }
     ],
     "preparation": [
       "Баклажаны разрежьте вдоль пополам, вырежьте сердцевину ложкой, оставляя стенки толщиной 0,8-1 см.",
@@ -877,14 +877,14 @@
     "weight": 100,
     "portions": 8,
     "ingredients": [
-      { "id": 1, "title": "Гречка", "weight": 200, "measure": "г" },
-      { "id": 2, "title": "Грибы шампиньоны", "weight": 250, "measure": "г" },
-      { "id": 3, "title": "Лук репчатый", "weight": 120, "measure": "г" },
-      { "id": 4, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 5, "title": "Панировочные сухари", "weight": 80, "measure": "г" },
-      { "id": 6, "title": "Соль", "weight": 5, "measure": "г" },
-      { "id": 7, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
-      { "id": 8, "title": "Масло растительное", "weight": 30, "measure": "мл" }
+      { "id": 71, "title": "Гречка", "weight": 200, "measure": "г" },
+      { "id": 59, "title": "Шампиньоны", "weight": 250, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 120, "measure": "г" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 4, "title": "Панировочные сухари", "weight": 80, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 5, "measure": "г" },
+      { "id": 6, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 30, "measure": "мл" }
     ],
     "preparation": [
       "Гречку отварите в подсоленной воде до готовности (2 части воды на 1 часть гречки, 15-20 минут). Остудите.",
@@ -907,15 +907,15 @@
     "weight": 110,
     "portions": 8,
     "ingredients": [
-      { "id": 1, "title": "Филе хека", "weight": 500, "measure": "г" },
+      { "id": 72, "title": "Филе хека", "weight": 500, "measure": "г" },
       { "id": 2, "title": "Лук репчатый", "weight": 100, "measure": "г" },
-      { "id": 3, "title": "Хлеб белый", "weight": 80, "measure": "г" },
-      { "id": 4, "title": "Молоко", "weight": 100, "measure": "мл" },
-      { "id": 5, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 6, "title": "Панировочные сухари", "weight": 60, "measure": "г" },
-      { "id": 7, "title": "Соль", "weight": 5, "measure": "г" },
-      { "id": 8, "title": "Перец белый", "weight": 3, "measure": "г" },
-      { "id": 9, "title": "Масло растительное", "weight": 30, "measure": "мл" }
+      { "id": 73, "title": "Хлеб белый", "weight": 80, "measure": "г" },
+      { "id": 15, "title": "Молоко", "weight": 100, "measure": "мл" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 4, "title": "Панировочные сухари", "weight": 60, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 5, "measure": "г" },
+      { "id": 74, "title": "Перец белый", "weight": 3, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 30, "measure": "мл" }
     ],
     "preparation": [
       "Хлеб замочите в молоке на 10 минут, затем отожмите.",
@@ -939,19 +939,19 @@
     "portions": 10,
     "ingredients": [
       {
-        "id": 1,
+        "id": 75,
         "title": "Капуста белокочанная",
         "weight": 500,
         "measure": "г"
       },
-      { "id": 2, "title": "Морковь", "weight": 80, "measure": "г" },
-      { "id": 3, "title": "Лук репчатый", "weight": 80, "measure": "г" },
-      { "id": 4, "title": "Манная крупа", "weight": 60, "measure": "г" },
-      { "id": 5, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 6, "title": "Панировочные сухари", "weight": 70, "measure": "г" },
-      { "id": 7, "title": "Соль", "weight": 5, "measure": "г" },
-      { "id": 8, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
-      { "id": 9, "title": "Масло растительное", "weight": 30, "measure": "мл" }
+      { "id": 11, "title": "Морковь", "weight": 80, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 80, "measure": "г" },
+      { "id": 64, "title": "Манная крупа", "weight": 60, "measure": "г" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 4, "title": "Панировочные сухари", "weight": 70, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 5, "measure": "г" },
+      { "id": 6, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 30, "measure": "мл" }
     ],
     "preparation": [
       "Капусту мелко нашинкуйте, морковь и лук натрите на крупной терке.",
@@ -974,18 +974,18 @@
     "weight": 45,
     "portions": 12,
     "ingredients": [
-      { "id": 1, "title": "Сыр твердый", "weight": 200, "measure": "г" },
-      { "id": 2, "title": "Мука пшеничная", "weight": 100, "measure": "г" },
-      { "id": 3, "title": "Молоко", "weight": 120, "measure": "мл" },
-      { "id": 4, "title": "Яйца куриные", "weight": 2, "measure": "шт." },
+      { "id": 23, "title": "Сыр твердый", "weight": 200, "measure": "г" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 100, "measure": "г" },
+      { "id": 15, "title": "Молоко", "weight": 120, "measure": "мл" },
+      { "id": 3, "title": "Яйца куриные", "weight": 2, "measure": "шт." },
       {
-        "id": 5,
+        "id": 76,
         "title": "Масло сливочное растопленное",
         "weight": 50,
         "measure": "г"
       },
-      { "id": 6, "title": "Разрыхлитель", "weight": 5, "measure": "г" },
-      { "id": 7, "title": "Соль", "weight": 2, "measure": "г" }
+      { "id": 60, "title": "Разрыхлитель", "weight": 5, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 2, "measure": "г" }
     ],
     "preparation": [
       "Сыр натрите на мелкой терке.",
@@ -1009,12 +1009,17 @@
     "weight": 40,
     "portions": 15,
     "ingredients": [
-      { "id": 1, "title": "Хлеб белый (батон)", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Масло сливочное", "weight": 80, "measure": "г" },
-      { "id": 3, "title": "Чеснок", "weight": 20, "measure": "г" },
-      { "id": 4, "title": "Петрушка свежая", "weight": 15, "measure": "г" },
-      { "id": 5, "title": "Укроп свежий", "weight": 15, "measure": "г" },
-      { "id": 6, "title": "Соль", "weight": 3, "measure": "г" }
+      {
+        "id": 77,
+        "title": "Хлеб белый (батон)",
+        "weight": 500,
+        "measure": "г"
+      },
+      { "id": 16, "title": "Масло сливочное", "weight": 80, "measure": "г" },
+      { "id": 8, "title": "Чеснок", "weight": 20, "measure": "г" },
+      { "id": 78, "title": "Петрушка свежая", "weight": 15, "measure": "г" },
+      { "id": 79, "title": "Укроп свежий", "weight": 15, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 3, "measure": "г" }
     ],
     "preparation": [
       "Хлеб нарежьте ломтиками толщиной 1,5-2 см.",
@@ -1037,14 +1042,14 @@
     "portions": 8,
     "ingredients": [
       { "id": 1, "title": "Куриное филе", "weight": 400, "measure": "г" },
-      { "id": 2, "title": "Картофель", "weight": 300, "measure": "г" },
-      { "id": 3, "title": "Морковь", "weight": 150, "measure": "г" },
-      { "id": 4, "title": "Лук репчатый", "weight": 120, "measure": "г" },
-      { "id": 5, "title": "Кабачок", "weight": 200, "measure": "г" },
-      { "id": 6, "title": "Помидоры", "weight": 200, "measure": "г" },
-      { "id": 7, "title": "Чеснок", "weight": 10, "measure": "г" },
-      { "id": 8, "title": "Соль, перец", "weight": 6, "measure": "г" },
-      { "id": 9, "title": "Масло растительное", "weight": 20, "measure": "мл" }
+      { "id": 52, "title": "Картофель", "weight": 300, "measure": "г" },
+      { "id": 11, "title": "Морковь", "weight": 150, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 120, "measure": "г" },
+      { "id": 80, "title": "Кабачок", "weight": 200, "measure": "г" },
+      { "id": 81, "title": "Помидоры", "weight": 200, "measure": "г" },
+      { "id": 8, "title": "Чеснок", "weight": 10, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 6, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 20, "measure": "мл" }
     ],
     "preparation": [
       "Курицу нарежьте кубиками 2-3 см, обжарьте на масле до золотистого цвета (5-7 минут).",
@@ -1067,30 +1072,30 @@
     "weight": 90,
     "portions": 10,
     "ingredients": [
-      { "id": 1, "title": "Мука пшеничная", "weight": 400, "measure": "г" },
-      { "id": 2, "title": "Вода кипяток", "weight": 250, "measure": "мл" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 400, "measure": "г" },
+      { "id": 29, "title": "Вода теплая", "weight": 250, "measure": "мл" },
       {
-        "id": 3,
+        "id": 82,
         "title": "Масло растительное в тесто",
         "weight": 30,
         "measure": "мл"
       },
-      { "id": 4, "title": "Соль для теста", "weight": 5, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 5, "measure": "г" },
       {
-        "id": 5,
+        "id": 83,
         "title": "Фарш мясной (баранина+говядина)",
         "weight": 400,
         "measure": "г"
       },
-      { "id": 6, "title": "Лук репчатый", "weight": 200, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 200, "measure": "г" },
       {
-        "id": 7,
+        "id": 84,
         "title": "Кефир или вода для сочности",
         "weight": 60,
         "measure": "мл"
       },
-      { "id": 8, "title": "Соль, перец, зира", "weight": 8, "measure": "г" },
-      { "id": 9, "title": "Масло для фритюра", "weight": 300, "measure": "мл" }
+      { "id": 85, "title": "Соль, перец, зира", "weight": 8, "measure": "г" },
+      { "id": 86, "title": "Масло для фритюра", "weight": 300, "measure": "мл" }
     ],
     "preparation": [
       "Для теста: в кипяток добавьте соль и растительное масло, затем постепенно всыпьте муку, замешивая ложкой.",
@@ -1114,15 +1119,20 @@
     "weight": 70,
     "portions": 10,
     "ingredients": [
-      { "id": 1, "title": "Картофель", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Сыр твердый", "weight": 100, "measure": "г" },
-      { "id": 3, "title": "Мука пшеничная", "weight": 60, "measure": "г" },
-      { "id": 4, "title": "Яйца куриные", "weight": 2, "measure": "шт." },
-      { "id": 5, "title": "Чеснок", "weight": 10, "measure": "г" },
-      { "id": 6, "title": "Соль", "weight": 5, "measure": "г" },
-      { "id": 7, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
-      { "id": 8, "title": "Масло растительное", "weight": 40, "measure": "мл" },
-      { "id": 9, "title": "Зелень (укроп)", "weight": 10, "measure": "г" }
+      { "id": 52, "title": "Картофель", "weight": 500, "measure": "г" },
+      { "id": 23, "title": "Сыр твердый", "weight": 100, "measure": "г" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 60, "measure": "г" },
+      { "id": 3, "title": "Яйца куриные", "weight": 2, "measure": "шт." },
+      { "id": 8, "title": "Чеснок", "weight": 10, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 5, "measure": "г" },
+      { "id": 6, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
+      {
+        "id": 40,
+        "title": "Масло растительное",
+        "weight": 40,
+        "measure": "мл"
+      },
+      { "id": 79, "title": "Укроп свежий", "weight": 10, "measure": "г" }
     ],
     "preparation": [
       "Картофель очистите и натрите на мелкой терке. Слейте лишнюю жидкость.",
@@ -1146,16 +1156,16 @@
     "weight": 120,
     "portions": 8,
     "ingredients": [
-      { "id": 1, "title": "Филе индейки", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Кабачок молодой", "weight": 200, "measure": "г" },
-      { "id": 3, "title": "Лук репчатый", "weight": 80, "measure": "г" },
-      { "id": 4, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 5, "title": "Панировочные сухари", "weight": 60, "measure": "г" },
-      { "id": 6, "title": "Соль", "weight": 5, "measure": "г" },
-      { "id": 7, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
+      { "id": 87, "title": "Филе индейки", "weight": 500, "measure": "г" },
+      { "id": 41, "title": "Кабачок молодой", "weight": 200, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 80, "measure": "г" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 4, "title": "Панировочные сухари", "weight": 60, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 5, "measure": "г" },
+      { "id": 6, "title": "Перец черный молотый", "weight": 3, "measure": "г" },
       { "id": 8, "title": "Чеснок", "weight": 10, "measure": "г" },
       {
-        "id": 9,
+        "id": 7,
         "title": "Масло растительное для жарки",
         "weight": 30,
         "measure": "мл"
@@ -1182,15 +1192,20 @@
     "weight": 90,
     "portions": 12,
     "ingredients": [
-      { "id": 1, "title": "Фарш свино-говяжий", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Рис круглозерный", "weight": 80, "measure": "г" },
-      { "id": 3, "title": "Лук репчатый", "weight": 100, "measure": "г" },
-      { "id": 4, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 5, "title": "Томатная паста", "weight": 80, "measure": "г" },
-      { "id": 6, "title": "Сметана 20%", "weight": 100, "measure": "г" },
-      { "id": 7, "title": "Мука пшеничная", "weight": 30, "measure": "г" },
-      { "id": 8, "title": "Соль, перец", "weight": 6, "measure": "г" },
-      { "id": 9, "title": "Масло растительное", "weight": 20, "measure": "мл" }
+      {
+        "id": 88,
+        "title": "Фарш свино-говяжий",
+        "weight": 500,
+        "measure": "г"
+      },
+      { "id": 37, "title": "Рис круглозерный", "weight": 80, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 100, "measure": "г" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 13, "title": "Томатная паста", "weight": 80, "measure": "г" },
+      { "id": 39, "title": "Сметана 20%", "weight": 100, "measure": "г" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 30, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 6, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 20, "measure": "мл" }
     ],
     "preparation": [
       "Рис отварите до полуготовности (7-8 минут), откиньте на дуршлаг.",
@@ -1215,14 +1230,14 @@
     "weight": 70,
     "portions": 10,
     "ingredients": [
-      { "id": 1, "title": "Печень куриная", "weight": 400, "measure": "г" },
-      { "id": 2, "title": "Гречка отварная", "weight": 200, "measure": "г" },
-      { "id": 3, "title": "Лук репчатый", "weight": 100, "measure": "г" },
-      { "id": 4, "title": "Морковь", "weight": 80, "measure": "г" },
-      { "id": 5, "title": "Яйцо куриное", "weight": 2, "measure": "шт." },
-      { "id": 6, "title": "Мука пшеничная", "weight": 50, "measure": "г" },
-      { "id": 7, "title": "Соль, перец", "weight": 5, "measure": "г" },
-      { "id": 8, "title": "Масло растительное", "weight": 30, "measure": "мл" }
+      { "id": 89, "title": "Печень куриная", "weight": 400, "measure": "г" },
+      { "id": 90, "title": "Гречка отварная", "weight": 200, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 100, "measure": "г" },
+      { "id": 11, "title": "Морковь", "weight": 80, "measure": "г" },
+      { "id": 3, "title": "Яйца куриные", "weight": 2, "measure": "шт." },
+      { "id": 17, "title": "Мука пшеничная", "weight": 50, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 5, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 30, "measure": "мл" }
     ],
     "preparation": [
       "Печень промойте, удалите пленки, нарежьте кусками.",
@@ -1248,21 +1263,21 @@
     "ingredients": [
       { "id": 1, "title": "Куриное филе", "weight": 600, "measure": "г" },
       {
-        "id": 2,
+        "id": 91,
         "title": "Шпинат замороженный",
         "weight": 200,
         "measure": "г"
       },
       {
-        "id": 3,
+        "id": 92,
         "title": "Сыр рикотта или творожный",
         "weight": 150,
         "measure": "г"
       },
-      { "id": 4, "title": "Сыр пармезан", "weight": 50, "measure": "г" },
-      { "id": 5, "title": "Чеснок", "weight": 10, "measure": "г" },
-      { "id": 6, "title": "Соль, перец", "weight": 5, "measure": "г" },
-      { "id": 7, "title": "Масло оливковое", "weight": 15, "measure": "мл" }
+      { "id": 18, "title": "Пармезан", "weight": 50, "measure": "г" },
+      { "id": 8, "title": "Чеснок", "weight": 10, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 5, "measure": "г" },
+      { "id": 31, "title": "Масло оливковое", "weight": 15, "measure": "мл" }
     ],
     "preparation": [
       "Куриное филе разрежьте вдоль на тонкие пласты (по 2-3 из каждого) и отбейте до толщины 0,5 см.",
@@ -1287,14 +1302,14 @@
     "weight": 110,
     "portions": 8,
     "ingredients": [
-      { "id": 1, "title": "Картофель", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Фарш мясной", "weight": 300, "measure": "г" },
-      { "id": 3, "title": "Лук репчатый", "weight": 120, "measure": "г" },
-      { "id": 4, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 5, "title": "Мука пшеничная", "weight": 60, "measure": "г" },
-      { "id": 6, "title": "Панировочные сухари", "weight": 80, "measure": "г" },
-      { "id": 7, "title": "Соль, перец", "weight": 6, "measure": "г" },
-      { "id": 8, "title": "Масло растительное", "weight": 30, "measure": "мл" }
+      { "id": 52, "title": "Картофель", "weight": 500, "measure": "г" },
+      { "id": 48, "title": "Фарш мясной", "weight": 300, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 120, "measure": "г" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 17, "title": "Мука пшеничная", "weight": 60, "measure": "г" },
+      { "id": 4, "title": "Панировочные сухари", "weight": 80, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 6, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 30, "measure": "мл" }
     ],
     "preparation": [
       "Картофель отварите в подсоленной воде до готовности, слейте воду, разомните в пюре и остудите.",
@@ -1320,12 +1335,17 @@
     "ingredients": [
       { "id": 1, "title": "Куриное филе", "weight": 600, "measure": "г" },
       { "id": 2, "title": "Лук репчатый", "weight": 150, "measure": "г" },
-      { "id": 3, "title": "Йогурт натуральный", "weight": 150, "measure": "г" },
-      { "id": 4, "title": "Лимонный сок", "weight": 20, "measure": "мл" },
-      { "id": 5, "title": "Паприка", "weight": 10, "measure": "г" },
-      { "id": 6, "title": "Куркума", "weight": 5, "measure": "г" },
-      { "id": 7, "title": "Чеснок", "weight": 15, "measure": "г" },
-      { "id": 8, "title": "Соль, перец", "weight": 6, "measure": "г" }
+      {
+        "id": 93,
+        "title": "Йогурт натуральный",
+        "weight": 150,
+        "measure": "г"
+      },
+      { "id": 94, "title": "Лимонный сок", "weight": 20, "measure": "мл" },
+      { "id": 46, "title": "Паприка", "weight": 10, "measure": "г" },
+      { "id": 95, "title": "Куркума", "weight": 5, "measure": "г" },
+      { "id": 8, "title": "Чеснок", "weight": 15, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 6, "measure": "г" }
     ],
     "preparation": [
       "Куриное филе нарежьте кубиками 2-3 см.",
@@ -1350,13 +1370,13 @@
     "portions": 6,
     "ingredients": [
       { "id": 1, "title": "Куриное филе", "weight": 400, "measure": "г" },
-      { "id": 2, "title": "Брокколи", "weight": 400, "measure": "г" },
-      { "id": 3, "title": "Сливки 20%", "weight": 200, "measure": "мл" },
-      { "id": 4, "title": "Сыр твердый", "weight": 80, "measure": "г" },
-      { "id": 5, "title": "Чеснок", "weight": 10, "measure": "г" },
-      { "id": 6, "title": "Мускатный орех", "weight": 3, "measure": "г" },
-      { "id": 7, "title": "Соль, перец", "weight": 5, "measure": "г" },
-      { "id": 8, "title": "Масло сливочное", "weight": 20, "measure": "г" }
+      { "id": 96, "title": "Брокколи", "weight": 400, "measure": "г" },
+      { "id": 97, "title": "Сливки 20%", "weight": 200, "measure": "мл" },
+      { "id": 23, "title": "Сыр твердый", "weight": 80, "measure": "г" },
+      { "id": 8, "title": "Чеснок", "weight": 10, "measure": "г" },
+      { "id": 57, "title": "Мускатный орех", "weight": 3, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 5, "measure": "г" },
+      { "id": 16, "title": "Масло сливочное", "weight": 20, "measure": "г" }
     ],
     "preparation": [
       "Брокколи разберите на соцветия, бланшируйте в кипящей воде 2-3 минуты, откиньте на дуршлаг.",
@@ -1379,19 +1399,19 @@
     "weight": 140,
     "portions": 8,
     "ingredients": [
-      { "id": 1, "title": "Фарш мясной", "weight": 500, "measure": "г" },
+      { "id": 48, "title": "Фарш мясной", "weight": 500, "measure": "г" },
       {
-        "id": 2,
+        "id": 98,
         "title": "Яйца куриные вареные",
         "weight": 4,
         "measure": "шт."
       },
-      { "id": 3, "title": "Лук репчатый", "weight": 80, "measure": "г" },
-      { "id": 4, "title": "Хлеб белый", "weight": 60, "measure": "г" },
-      { "id": 5, "title": "Молоко", "weight": 80, "measure": "мл" },
-      { "id": 6, "title": "Яйцо сырое", "weight": 1, "measure": "шт." },
-      { "id": 7, "title": "Панировочные сухари", "weight": 50, "measure": "г" },
-      { "id": 8, "title": "Соль, перец", "weight": 6, "measure": "г" }
+      { "id": 2, "title": "Лук репчатый", "weight": 80, "measure": "г" },
+      { "id": 73, "title": "Хлеб белый", "weight": 60, "measure": "г" },
+      { "id": 15, "title": "Молоко", "weight": 80, "measure": "мл" },
+      { "id": 99, "title": "Яйцо сырое", "weight": 1, "measure": "шт." },
+      { "id": 4, "title": "Панировочные сухари", "weight": 50, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 6, "measure": "г" }
     ],
     "preparation": [
       "Хлеб замочите в молоке на 10 минут, затем отожмите.",
@@ -1417,14 +1437,14 @@
     "weight": 180,
     "portions": 8,
     "ingredients": [
-      { "id": 1, "title": "Кабачки", "weight": 600, "measure": "г" },
-      { "id": 2, "title": "Фарш мясной", "weight": 350, "measure": "г" },
-      { "id": 3, "title": "Лук репчатый", "weight": 80, "measure": "г" },
-      { "id": 4, "title": "Яйца куриные", "weight": 2, "measure": "шт." },
-      { "id": 5, "title": "Сметана 20%", "weight": 150, "measure": "г" },
-      { "id": 6, "title": "Сыр твердый", "weight": 100, "measure": "г" },
-      { "id": 7, "title": "Соль, перец", "weight": 5, "measure": "г" },
-      { "id": 8, "title": "Масло растительное", "weight": 15, "measure": "мл" }
+      { "id": 100, "title": "Кабачки", "weight": 600, "measure": "г" },
+      { "id": 48, "title": "Фарш мясной", "weight": 350, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 80, "measure": "г" },
+      { "id": 3, "title": "Яйца куриные", "weight": 2, "measure": "шт." },
+      { "id": 39, "title": "Сметана 20%", "weight": 150, "measure": "г" },
+      { "id": 23, "title": "Сыр твердый", "weight": 100, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 5, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 15, "measure": "мл" }
     ],
     "preparation": [
       "Кабачки натрите на крупной терке, посолите, оставьте на 15 минут, затем отожмите жидкость.",
@@ -1448,17 +1468,17 @@
     "portions": 6,
     "ingredients": [
       {
-        "id": 1,
+        "id": 101,
         "title": "Куриные бедра (без кости)",
         "weight": 700,
         "measure": "г"
       },
-      { "id": 2, "title": "Мед", "weight": 40, "measure": "г" },
-      { "id": 3, "title": "Горчица дижонская", "weight": 30, "measure": "г" },
-      { "id": 4, "title": "Соевый соус", "weight": 30, "measure": "мл" },
-      { "id": 5, "title": "Чеснок", "weight": 15, "measure": "г" },
-      { "id": 6, "title": "Масло оливковое", "weight": 15, "measure": "мл" },
-      { "id": 7, "title": "Соль, перец", "weight": 4, "measure": "г" }
+      { "id": 102, "title": "Мед", "weight": 40, "measure": "г" },
+      { "id": 103, "title": "Горчица дижонская", "weight": 30, "measure": "г" },
+      { "id": 104, "title": "Соевый соус", "weight": 30, "measure": "мл" },
+      { "id": 8, "title": "Чеснок", "weight": 15, "measure": "г" },
+      { "id": 31, "title": "Масло оливковое", "weight": 15, "measure": "мл" },
+      { "id": 20, "title": "Соль, перец", "weight": 4, "measure": "г" }
     ],
     "preparation": [
       "Куриные бедра посолите и поперчите.",
@@ -1481,14 +1501,14 @@
     "weight": 80,
     "portions": 10,
     "ingredients": [
-      { "id": 1, "title": "Свекла", "weight": 400, "measure": "г" },
-      { "id": 2, "title": "Морковь", "weight": 150, "measure": "г" },
-      { "id": 3, "title": "Манная крупа", "weight": 60, "measure": "г" },
-      { "id": 4, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 5, "title": "Чеснок", "weight": 10, "measure": "г" },
-      { "id": 6, "title": "Панировочные сухари", "weight": 60, "measure": "г" },
-      { "id": 7, "title": "Соль, перец", "weight": 5, "measure": "г" },
-      { "id": 8, "title": "Масло растительное", "weight": 25, "measure": "мл" }
+      { "id": 105, "title": "Свекла", "weight": 400, "measure": "г" },
+      { "id": 11, "title": "Морковь", "weight": 150, "measure": "г" },
+      { "id": 64, "title": "Манная крупа", "weight": 60, "measure": "г" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 8, "title": "Чеснок", "weight": 10, "measure": "г" },
+      { "id": 4, "title": "Панировочные сухари", "weight": 60, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 5, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 25, "measure": "мл" }
     ],
     "preparation": [
       "Свеклу и морковь отварите до готовности, остудите, очистите и натрите на мелкой терке.",
@@ -1511,17 +1531,17 @@
     "weight": 70,
     "portions": 15,
     "ingredients": [
-      { "id": 1, "title": "Мука пшеничная", "weight": 400, "measure": "г" },
-      { "id": 2, "title": "Кефир", "weight": 200, "measure": "мл" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 400, "measure": "г" },
+      { "id": 63, "title": "Кефир", "weight": 200, "measure": "мл" },
       { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 4, "title": "Соль для теста", "weight": 4, "measure": "г" },
-      { "id": 5, "title": "Творог", "weight": 400, "measure": "г" },
-      { "id": 6, "title": "Укроп свежий", "weight": 20, "measure": "г" },
-      { "id": 7, "title": "Зеленый лук", "weight": 20, "measure": "г" },
-      { "id": 8, "title": "Соль для начинки", "weight": 5, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 4, "measure": "г" },
+      { "id": 26, "title": "Творог (9-18%)", "weight": 400, "measure": "г" },
+      { "id": 79, "title": "Укроп свежий", "weight": 20, "measure": "г" },
+      { "id": 106, "title": "Зеленый лук", "weight": 20, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 5, "measure": "г" },
       {
-        "id": 9,
-        "title": "Сливочное масло для смазки",
+        "id": 24,
+        "title": "Масло сливочное для смазки",
         "weight": 20,
         "measure": "г"
       }
@@ -1547,18 +1567,18 @@
     "weight": 70,
     "portions": 10,
     "ingredients": [
-      { "id": 1, "title": "Филе минтая", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Яйца куриные", "weight": 2, "measure": "шт." },
-      { "id": 3, "title": "Мука пшеничная", "weight": 60, "measure": "г" },
+      { "id": 107, "title": "Филе минтая", "weight": 500, "measure": "г" },
+      { "id": 3, "title": "Яйца куриные", "weight": 2, "measure": "шт." },
+      { "id": 17, "title": "Мука пшеничная", "weight": 60, "measure": "г" },
       {
         "id": 4,
         "title": "Панировочные сухари",
         "weight": 100,
         "measure": "г"
       },
-      { "id": 5, "title": "Соль, перец", "weight": 5, "measure": "г" },
-      { "id": 6, "title": "Паприка", "weight": 5, "measure": "г" },
-      { "id": 7, "title": "Масло растительное", "weight": 40, "measure": "мл" }
+      { "id": 20, "title": "Соль, перец", "weight": 5, "measure": "г" },
+      { "id": 46, "title": "Паприка", "weight": 5, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 40, "measure": "мл" }
     ],
     "preparation": [
       "Филе минтая нарежьте полосками шириной 2-3 см (как большие пальцы).",
@@ -1581,19 +1601,19 @@
     "portions": 8,
     "ingredients": [
       {
-        "id": 1,
+        "id": 75,
         "title": "Капуста белокочанная",
         "weight": 400,
         "measure": "г"
       },
-      { "id": 2, "title": "Фарш мясной", "weight": 350, "measure": "г" },
-      { "id": 3, "title": "Рис круглозерный", "weight": 100, "measure": "г" },
-      { "id": 4, "title": "Лук репчатый", "weight": 100, "measure": "г" },
-      { "id": 5, "title": "Морковь", "weight": 100, "measure": "г" },
-      { "id": 6, "title": "Томатная паста", "weight": 60, "measure": "г" },
-      { "id": 7, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 8, "title": "Соль, перец", "weight": 6, "measure": "г" },
-      { "id": 9, "title": "Масло растительное", "weight": 20, "measure": "мл" }
+      { "id": 48, "title": "Фарш мясной", "weight": 350, "measure": "г" },
+      { "id": 37, "title": "Рис круглозерный", "weight": 100, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 100, "measure": "г" },
+      { "id": 11, "title": "Морковь", "weight": 100, "measure": "г" },
+      { "id": 13, "title": "Томатная паста", "weight": 60, "measure": "г" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 20, "title": "Соль, перец", "weight": 6, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 20, "measure": "мл" }
     ],
     "preparation": [
       "Капусту мелко нашинкуйте, посолите и потрите руками до выделения сока.",
@@ -1618,19 +1638,19 @@
     "weight": 90,
     "portions": 10,
     "ingredients": [
-      { "id": 1, "title": "Нут сухой", "weight": 250, "measure": "г" },
+      { "id": 108, "title": "Нут сухой", "weight": 250, "measure": "г" },
       { "id": 2, "title": "Лук репчатый", "weight": 100, "measure": "г" },
-      { "id": 3, "title": "Морковь", "weight": 80, "measure": "г" },
-      { "id": 4, "title": "Чеснок", "weight": 10, "measure": "г" },
+      { "id": 11, "title": "Морковь", "weight": 80, "measure": "г" },
+      { "id": 8, "title": "Чеснок", "weight": 10, "measure": "г" },
       {
-        "id": 5,
+        "id": 109,
         "title": "Мука нутовая или пшеничная",
         "weight": 50,
         "measure": "г"
       },
-      { "id": 6, "title": "Кинза", "weight": 15, "measure": "г" },
-      { "id": 7, "title": "Соль, перец, кумин", "weight": 8, "measure": "г" },
-      { "id": 8, "title": "Масло растительное", "weight": 30, "measure": "мл" }
+      { "id": 68, "title": "Кинза свежая", "weight": 15, "measure": "г" },
+      { "id": 20, "title": "Соль, перец, кумин", "weight": 8, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 30, "measure": "мл" }
     ],
     "preparation": [
       "Нут замочите на 8-12 часов, затем отварите до мягкости (1-1,5 часа). Слейте воду, остудите.",
@@ -1654,14 +1674,14 @@
     "weight": 100,
     "portions": 10,
     "ingredients": [
-      { "id": 1, "title": "Фарш куриный", "weight": 400, "measure": "г" },
-      { "id": 2, "title": "Гречка отварная", "weight": 150, "measure": "г" },
-      { "id": 3, "title": "Лук репчатый", "weight": 80, "measure": "г" },
-      { "id": 4, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 5, "title": "Сметана 20%", "weight": 200, "measure": "г" },
-      { "id": 6, "title": "Мука пшеничная", "weight": 20, "measure": "г" },
-      { "id": 7, "title": "Соль, перец", "weight": 5, "measure": "г" },
-      { "id": 8, "title": "Масло растительное", "weight": 20, "measure": "мл" }
+      { "id": 1, "title": "Куриное филе", "weight": 400, "measure": "г" },
+      { "id": 90, "title": "Гречка отварная", "weight": 150, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 80, "measure": "г" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 39, "title": "Сметана 20%", "weight": 200, "measure": "г" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 20, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 5, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 20, "measure": "мл" }
     ],
     "preparation": [
       "Лук мелко нарежьте, обжарьте до золотистого цвета.",
@@ -1685,27 +1705,27 @@
     "weight": 80,
     "portions": 15,
     "ingredients": [
-      { "id": 1, "title": "Мука пшеничная", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Молоко", "weight": 250, "measure": "мл" },
-      { "id": 3, "title": "Дрожжи сухие", "weight": 10, "measure": "г" },
-      { "id": 4, "title": "Сахар", "weight": 25, "measure": "г" },
-      { "id": 5, "title": "Соль для теста", "weight": 5, "measure": "г" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 500, "measure": "г" },
+      { "id": 15, "title": "Молоко", "weight": 250, "measure": "мл" },
+      { "id": 30, "title": "Дрожжи сухие", "weight": 10, "measure": "г" },
+      { "id": 21, "title": "Сахар", "weight": 25, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 5, "measure": "г" },
       {
-        "id": 6,
+        "id": 82,
         "title": "Масло растительное в тесто",
         "weight": 30,
         "measure": "мл"
       },
       {
-        "id": 7,
+        "id": 75,
         "title": "Капуста белокочанная",
         "weight": 500,
         "measure": "г"
       },
-      { "id": 8, "title": "Лук репчатый", "weight": 80, "measure": "г" },
-      { "id": 9, "title": "Яйцо вареное", "weight": 2, "measure": "шт." },
-      { "id": 10, "title": "Соль для начинки", "weight": 5, "measure": "г" },
-      { "id": 11, "title": "Масло для жарки", "weight": 40, "measure": "мл" }
+      { "id": 2, "title": "Лук репчатый", "weight": 80, "measure": "г" },
+      { "id": 111, "title": "Яйцо вареное", "weight": 2, "measure": "шт." },
+      { "id": 5, "title": "Соль поваренная", "weight": 5, "measure": "г" },
+      { "id": 112, "title": "Масло для жарки", "weight": 40, "measure": "мл" }
     ],
     "preparation": [
       "Для теста: в теплом молоке растворите дрожжи и сахар, оставьте на 10 минут до появления пены.",
@@ -1730,14 +1750,14 @@
     "weight": 90,
     "portions": 10,
     "ingredients": [
-      { "id": 1, "title": "Фарш индейки", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Кабачок", "weight": 150, "measure": "г" },
-      { "id": 3, "title": "Лук репчатый", "weight": 80, "measure": "г" },
-      { "id": 4, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 5, "title": "Сливки 20%", "weight": 200, "measure": "мл" },
-      { "id": 6, "title": "Мука пшеничная", "weight": 20, "measure": "г" },
-      { "id": 7, "title": "Соль, перец", "weight": 5, "measure": "г" },
-      { "id": 8, "title": "Масло растительное", "weight": 20, "measure": "мл" }
+      { "id": 113, "title": "Фарш индейки", "weight": 500, "measure": "г" },
+      { "id": 80, "title": "Кабачок", "weight": 150, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 80, "measure": "г" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 97, "title": "Сливки 20%", "weight": 200, "measure": "мл" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 20, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 5, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 20, "measure": "мл" }
     ],
     "preparation": [
       "Кабачок натрите на терке, посолите, отожмите жидкость.",
@@ -1762,15 +1782,15 @@
     "weight": 170,
     "portions": 8,
     "ingredients": [
-      { "id": 1, "title": "Картофель", "weight": 600, "measure": "г" },
-      { "id": 2, "title": "Фарш мясной", "weight": 350, "measure": "г" },
-      { "id": 3, "title": "Лук репчатый", "weight": 100, "measure": "г" },
-      { "id": 4, "title": "Морковь", "weight": 80, "measure": "г" },
-      { "id": 5, "title": "Яйца куриные", "weight": 2, "measure": "шт." },
-      { "id": 6, "title": "Молоко", "weight": 100, "measure": "мл" },
-      { "id": 7, "title": "Сыр твердый", "weight": 80, "measure": "г" },
-      { "id": 8, "title": "Соль, перец", "weight": 6, "measure": "г" },
-      { "id": 9, "title": "Масло растительное", "weight": 15, "measure": "мл" }
+      { "id": 52, "title": "Картофель", "weight": 600, "measure": "г" },
+      { "id": 48, "title": "Фарш мясной", "weight": 350, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 100, "measure": "г" },
+      { "id": 11, "title": "Морковь", "weight": 80, "measure": "г" },
+      { "id": 3, "title": "Яйца куриные", "weight": 2, "measure": "шт." },
+      { "id": 15, "title": "Молоко", "weight": 100, "measure": "мл" },
+      { "id": 23, "title": "Сыр твердый", "weight": 80, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 6, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 15, "measure": "мл" }
     ],
     "preparation": [
       "Картофель отварите до готовности, разомните в пюре с молоком, солью и перцем. Остудите.",
@@ -1793,15 +1813,15 @@
     "weight": 110,
     "portions": 8,
     "ingredients": [
-      { "id": 1, "title": "Филе семги", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Белый хлеб", "weight": 60, "measure": "г" },
-      { "id": 3, "title": "Молоко", "weight": 80, "measure": "мл" },
-      { "id": 4, "title": "Лук репчатый", "weight": 80, "measure": "г" },
-      { "id": 5, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 6, "title": "Укроп свежий", "weight": 15, "measure": "г" },
-      { "id": 7, "title": "Панировочные сухари", "weight": 60, "measure": "г" },
-      { "id": 8, "title": "Соль, перец", "weight": 5, "measure": "г" },
-      { "id": 9, "title": "Масло растительное", "weight": 25, "measure": "мл" }
+      { "id": 114, "title": "Филе семги", "weight": 500, "measure": "г" },
+      { "id": 73, "title": "Хлеб белый", "weight": 60, "measure": "г" },
+      { "id": 15, "title": "Молоко", "weight": 80, "measure": "мл" },
+      { "id": 2, "title": "Лук репчатый", "weight": 80, "measure": "г" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 79, "title": "Укроп свежий", "weight": 15, "measure": "г" },
+      { "id": 4, "title": "Панировочные сухари", "weight": 60, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 5, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 25, "measure": "мл" }
     ],
     "preparation": [
       "Хлеб замочите в молоке на 10 минут, затем отожмите.",
@@ -1825,18 +1845,18 @@
     "portions": 10,
     "ingredients": [
       {
-        "id": 1,
+        "id": 75,
         "title": "Капуста белокочанная",
         "weight": 400,
         "measure": "г"
       },
-      { "id": 2, "title": "Грибы шампиньоны", "weight": 200, "measure": "г" },
-      { "id": 3, "title": "Лук репчатый", "weight": 100, "measure": "г" },
-      { "id": 4, "title": "Манная крупа", "weight": 50, "measure": "г" },
-      { "id": 5, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 6, "title": "Панировочные сухари", "weight": 60, "measure": "г" },
-      { "id": 7, "title": "Соль, перец", "weight": 6, "measure": "г" },
-      { "id": 8, "title": "Масло растительное", "weight": 25, "measure": "мл" }
+      { "id": 59, "title": "Шампиньоны", "weight": 200, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 100, "measure": "г" },
+      { "id": 64, "title": "Манная крупа", "weight": 50, "measure": "г" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 4, "title": "Панировочные сухари", "weight": 60, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 6, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 25, "measure": "мл" }
     ],
     "preparation": [
       "Капусту мелко нашинкуйте, посолите и потрите руками до выделения сока.",
@@ -1860,12 +1880,12 @@
     "portions": 6,
     "ingredients": [
       { "id": 1, "title": "Куриное филе", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Сыр твердый", "weight": 120, "measure": "г" },
-      { "id": 3, "title": "Бекон", "weight": 150, "measure": "г" },
-      { "id": 4, "title": "Чеснок", "weight": 10, "measure": "г" },
-      { "id": 5, "title": "Укроп свежий", "weight": 10, "measure": "г" },
-      { "id": 6, "title": "Соль, перец", "weight": 5, "measure": "г" },
-      { "id": 7, "title": "Масло растительное", "weight": 15, "measure": "мл" }
+      { "id": 23, "title": "Сыр твердый", "weight": 120, "measure": "г" },
+      { "id": 115, "title": "Бекон", "weight": 150, "measure": "г" },
+      { "id": 8, "title": "Чеснок", "weight": 10, "measure": "г" },
+      { "id": 79, "title": "Укроп свежий", "weight": 10, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 5, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 15, "measure": "мл" }
     ],
     "preparation": [
       "Куриное филе разрежьте вдоль на тонкие пласты, отбейте до толщины 0,5 см.",
@@ -1888,14 +1908,14 @@
     "weight": 160,
     "portions": 8,
     "ingredients": [
-      { "id": 1, "title": "Цветная капуста", "weight": 300, "measure": "г" },
-      { "id": 2, "title": "Брокколи", "weight": 300, "measure": "г" },
-      { "id": 3, "title": "Морковь", "weight": 100, "measure": "г" },
-      { "id": 4, "title": "Яйца куриные", "weight": 3, "measure": "шт." },
-      { "id": 5, "title": "Сливки 20%", "weight": 150, "measure": "мл" },
-      { "id": 6, "title": "Сыр твердый", "weight": 80, "measure": "г" },
-      { "id": 7, "title": "Чеснок", "weight": 10, "measure": "г" },
-      { "id": 8, "title": "Соль, перец", "weight": 5, "measure": "г" }
+      { "id": 116, "title": "Цветная капуста", "weight": 300, "measure": "г" },
+      { "id": 96, "title": "Брокколи", "weight": 300, "measure": "г" },
+      { "id": 11, "title": "Морковь", "weight": 100, "measure": "г" },
+      { "id": 3, "title": "Яйца куриные", "weight": 3, "measure": "шт." },
+      { "id": 97, "title": "Сливки 20%", "weight": 150, "measure": "мл" },
+      { "id": 23, "title": "Сыр твердый", "weight": 80, "measure": "г" },
+      { "id": 8, "title": "Чеснок", "weight": 10, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 5, "measure": "г" }
     ],
     "preparation": [
       "Цветную капусту и брокколи разберите на соцветия, бланшируйте в кипящей воде 2-3 минуты. Морковь натрите на терке.",
@@ -1917,15 +1937,15 @@
     "weight": 80,
     "portions": 15,
     "ingredients": [
-      { "id": 1, "title": "Мука пшеничная", "weight": 450, "measure": "г" },
-      { "id": 2, "title": "Вода", "weight": 200, "measure": "мл" },
-      { "id": 3, "title": "Яйцо", "weight": 1, "measure": "шт." },
-      { "id": 4, "title": "Соль для теста", "weight": 4, "measure": "г" },
-      { "id": 5, "title": "Картофель", "weight": 350, "measure": "г" },
-      { "id": 6, "title": "Грибы шампиньоны", "weight": 250, "measure": "г" },
-      { "id": 7, "title": "Лук репчатый", "weight": 100, "measure": "г" },
-      { "id": 8, "title": "Соль, перец", "weight": 6, "measure": "г" },
-      { "id": 9, "title": "Масло растительное", "weight": 20, "measure": "мл" }
+      { "id": 17, "title": "Мука пшеничная", "weight": 450, "measure": "г" },
+      { "id": 51, "title": "Вода", "weight": 200, "measure": "мл" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 5, "title": "Соль поваренная", "weight": 4, "measure": "г" },
+      { "id": 52, "title": "Картофель", "weight": 350, "measure": "г" },
+      { "id": 59, "title": "Шампиньоны", "weight": 250, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 100, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 6, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 20, "measure": "мл" }
     ],
     "preparation": [
       "Для теста: смешайте муку с солью, добавьте яйцо и теплую воду, замесите крутое тесто. Накройте и дайте отдохнуть 30 минут.",
@@ -1950,14 +1970,14 @@
     "weight": 70,
     "portions": 12,
     "ingredients": [
-      { "id": 1, "title": "Фарш мясной", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Сыр твердый", "weight": 120, "measure": "г" },
-      { "id": 3, "title": "Лук репчатый", "weight": 80, "measure": "г" },
-      { "id": 4, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 5, "title": "Панировочные сухари", "weight": 80, "measure": "г" },
-      { "id": 6, "title": "Чеснок", "weight": 10, "measure": "г" },
-      { "id": 7, "title": "Соль, перец", "weight": 5, "measure": "г" },
-      { "id": 8, "title": "Масло растительное", "weight": 30, "measure": "мл" }
+      { "id": 48, "title": "Фарш мясной", "weight": 500, "measure": "г" },
+      { "id": 23, "title": "Сыр твердый", "weight": 120, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 80, "measure": "г" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 4, "title": "Панировочные сухари", "weight": 80, "measure": "г" },
+      { "id": 8, "title": "Чеснок", "weight": 10, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 5, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 30, "measure": "мл" }
     ],
     "preparation": [
       "Лук и чеснок пропустите через мясорубку или мелко нарежьте, смешайте с фаршем.",
@@ -1981,14 +2001,14 @@
     "weight": 170,
     "portions": 8,
     "ingredients": [
-      { "id": 1, "title": "Баклажаны", "weight": 600, "measure": "г" },
-      { "id": 2, "title": "Фарш мясной", "weight": 300, "measure": "г" },
-      { "id": 3, "title": "Лук репчатый", "weight": 80, "measure": "г" },
-      { "id": 4, "title": "Помидоры", "weight": 200, "measure": "г" },
-      { "id": 5, "title": "Сыр твердый", "weight": 100, "measure": "г" },
-      { "id": 6, "title": "Чеснок", "weight": 10, "measure": "г" },
-      { "id": 7, "title": "Соль, перец", "weight": 6, "measure": "г" },
-      { "id": 8, "title": "Масло растительное", "weight": 20, "measure": "мл" }
+      { "id": 70, "title": "Баклажаны", "weight": 600, "measure": "г" },
+      { "id": 48, "title": "Фарш мясной", "weight": 300, "measure": "г" },
+      { "id": 2, "title": "Лук репчатый", "weight": 80, "measure": "г" },
+      { "id": 81, "title": "Помидоры", "weight": 200, "measure": "г" },
+      { "id": 23, "title": "Сыр твердый", "weight": 100, "measure": "г" },
+      { "id": 8, "title": "Чеснок", "weight": 10, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 6, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 20, "measure": "мл" }
     ],
     "preparation": [
       "Баклажаны нарежьте кружками толщиной 1 см, посолите и оставьте на 15 минут, затем обсушите бумажными полотенцами.",
@@ -2013,13 +2033,13 @@
     "portions": 8,
     "ingredients": [
       { "id": 1, "title": "Куриное филе", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Овсяные хлопья", "weight": 80, "measure": "г" },
-      { "id": 3, "title": "Молоко", "weight": 100, "measure": "мл" },
-      { "id": 4, "title": "Лук репчатый", "weight": 80, "measure": "г" },
-      { "id": 5, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 6, "title": "Панировочные сухари", "weight": 60, "measure": "г" },
-      { "id": 7, "title": "Соль, перец", "weight": 5, "measure": "г" },
-      { "id": 8, "title": "Масло растительное", "weight": 25, "measure": "мл" }
+      { "id": 117, "title": "Овсяные хлопья", "weight": 80, "measure": "г" },
+      { "id": 15, "title": "Молоко", "weight": 100, "measure": "мл" },
+      { "id": 2, "title": "Лук репчатый", "weight": 80, "measure": "г" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 4, "title": "Панировочные сухари", "weight": 60, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 5, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 25, "measure": "мл" }
     ],
     "preparation": [
       "Овсяные хлопья залейте молоком и оставьте на 15 минут до набухания.",
@@ -2042,13 +2062,13 @@
     "weight": 80,
     "portions": 12,
     "ingredients": [
-      { "id": 1, "title": "Мука пшеничная", "weight": 350, "measure": "г" },
-      { "id": 2, "title": "Кефир", "weight": 200, "measure": "мл" },
-      { "id": 3, "title": "Масло сливочное", "weight": 80, "measure": "г" },
-      { "id": 4, "title": "Разрыхлитель", "weight": 5, "measure": "г" },
-      { "id": 5, "title": "Соль", "weight": 4, "measure": "г" },
-      { "id": 6, "title": "Сосиски", "weight": 500, "measure": "г" },
-      { "id": 7, "title": "Яйцо для смазки", "weight": 1, "measure": "шт." }
+      { "id": 17, "title": "Мука пшеничная", "weight": 350, "measure": "г" },
+      { "id": 63, "title": "Кефир", "weight": 200, "measure": "мл" },
+      { "id": 16, "title": "Масло сливочное", "weight": 80, "measure": "г" },
+      { "id": 60, "title": "Разрыхлитель", "weight": 5, "measure": "г" },
+      { "id": 5, "title": "Соль поваренная", "weight": 4, "measure": "г" },
+      { "id": 118, "title": "Сосиски", "weight": 500, "measure": "г" },
+      { "id": 119, "title": "Яйцо для смазки", "weight": 1, "measure": "шт." }
     ],
     "preparation": [
       "Для теста: смешайте муку, разрыхлитель и соль, добавьте холодное нарезанное масло и порубите в крошку.",
@@ -2072,14 +2092,14 @@
     "weight": 60,
     "portions": 12,
     "ingredients": [
-      { "id": 1, "title": "Творог", "weight": 300, "measure": "г" },
-      { "id": 2, "title": "Мука пшеничная", "weight": 150, "measure": "г" },
+      { "id": 26, "title": "Творог (9-18%)", "weight": 300, "measure": "г" },
+      { "id": 17, "title": "Мука пшеничная", "weight": 150, "measure": "г" },
       { "id": 3, "title": "Яйца куриные", "weight": 2, "measure": "шт." },
-      { "id": 4, "title": "Сахар", "weight": 80, "measure": "г" },
-      { "id": 5, "title": "Масло сливочное", "weight": 50, "measure": "г" },
-      { "id": 6, "title": "Разрыхлитель", "weight": 5, "measure": "г" },
-      { "id": 7, "title": "Изюм", "weight": 80, "measure": "г" },
-      { "id": 8, "title": "Ванильный сахар", "weight": 10, "measure": "г" }
+      { "id": 21, "title": "Сахар", "weight": 80, "measure": "г" },
+      { "id": 16, "title": "Масло сливочное", "weight": 50, "measure": "г" },
+      { "id": 60, "title": "Разрыхлитель", "weight": 5, "measure": "г" },
+      { "id": 65, "title": "Изюм", "weight": 80, "measure": "г" },
+      { "id": 28, "title": "Ванильный сахар", "weight": 10, "measure": "г" }
     ],
     "preparation": [
       "Изюм залейте кипятком на 10 минут, затем обсушите.",
@@ -2105,14 +2125,14 @@
     "weight": 80,
     "portions": 10,
     "ingredients": [
-      { "id": 1, "title": "Морковь", "weight": 500, "measure": "г" },
-      { "id": 2, "title": "Творог", "weight": 200, "measure": "г" },
-      { "id": 3, "title": "Манная крупа", "weight": 60, "measure": "г" },
-      { "id": 4, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
-      { "id": 5, "title": "Чеснок", "weight": 10, "measure": "г" },
-      { "id": 6, "title": "Панировочные сухари", "weight": 60, "measure": "г" },
-      { "id": 7, "title": "Соль, перец", "weight": 5, "measure": "г" },
-      { "id": 8, "title": "Масло растительное", "weight": 25, "measure": "мл" }
+      { "id": 11, "title": "Морковь", "weight": 500, "measure": "г" },
+      { "id": 26, "title": "Творог (9-18%)", "weight": 200, "measure": "г" },
+      { "id": 64, "title": "Манная крупа", "weight": 60, "measure": "г" },
+      { "id": 3, "title": "Яйцо куриное", "weight": 1, "measure": "шт." },
+      { "id": 8, "title": "Чеснок", "weight": 10, "measure": "г" },
+      { "id": 4, "title": "Панировочные сухари", "weight": 60, "measure": "г" },
+      { "id": 20, "title": "Соль, перец", "weight": 5, "measure": "г" },
+      { "id": 40, "title": "Масло растительное", "weight": 25, "measure": "мл" }
     ],
     "preparation": [
       "Морковь натрите на мелкой терке, обжарьте на масле до мягкости (5-7 минут).",
