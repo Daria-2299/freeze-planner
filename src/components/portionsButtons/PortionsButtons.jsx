@@ -1,32 +1,28 @@
-import { useState } from "react";
 import classes from "./portionsButtons.module.scss";
 
-const PortionsButtons = () => {
-  const [portionsValue, setPortionsValue] = useState(10);
-
-  const increasePortions = () => {
-    setPortionsValue((prev) => prev + 1);
-  };
-
-  const decreasePortions = () => {
-    setPortionsValue((prev) => prev - 1);
+const PortionsButtons = ({ portions, onChangePortions, recipeId }) => {
+  const handlePortionsClick = (event, delta) => {
+    event.stopPropagation();
+    onChangePortions(recipeId, portions + delta);
   };
 
   return (
     <div className={classes["portions-control"]}>
       <button
         className={classes["portions-control__btn"]}
-        onClick={decreasePortions}
-        disabled={portionsValue <= 1}
+        onClick={(event) => {
+          handlePortionsClick(event, -1);
+        }}
+        disabled={portions <= 1}
       >
         -
       </button>
-      <span className={classes["portions-control__value"]}>
-        {portionsValue}
-      </span>
+      <span className={classes["portions-control__value"]}>{portions}</span>
       <button
         className={classes["portions-control__btn"]}
-        onClick={increasePortions}
+        onClick={(event) => {
+          handlePortionsClick(event, 1);
+        }}
       >
         +
       </button>

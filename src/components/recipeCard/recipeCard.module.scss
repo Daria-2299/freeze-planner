@@ -41,7 +41,8 @@
   }
 
   &__button {
-    height: 45px;
+    min-width: 40%;
+    height: 50px;
     padding: 0 10px;
     border: none;
     border-radius: 50px;
@@ -52,6 +53,7 @@
     font-size: 20px;
     letter-spacing: 0.4px;
     color: #2d6a4f;
+
     &:hover {
       background: #2d6a4f;
       color: #ffffff;
@@ -72,4 +74,9 @@
   height: 100%;
   object-fit: cover;
   border-radius: 40px 40px 0 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
 }

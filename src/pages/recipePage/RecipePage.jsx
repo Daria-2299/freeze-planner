@@ -20,7 +20,6 @@ const RecipePage = () => {
         return res.json();
       })
       .then((data) => {
-        // const index = +recipeId - 1;
         setRecipe(data[+recipeId - 1]);
       });
   }, [recipeId]);

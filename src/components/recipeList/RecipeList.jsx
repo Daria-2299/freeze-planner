@@ -1,4 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
+
+import { useLocalStorage } from "../../hooks/useLocalStorage.hook";
 
 import RecipeCard from "../recipeCard/recipeCard";
 
@@ -7,10 +9,16 @@ import classes from "./recipeList.module.scss";
 const NUMBER_NEW_RECIPES = 20;
 
 const RecipeList = () => {
+  const {
+    plannerRecipes,
+    addRecipe,
+    removeRecipe,
+    isRecipeInPlanner,
+    changePortions,
+  } = useLocalStorage();
+
   const [allRecipes, setAllRecipes] = useState([]);
-  const [visibleRecipes, setVisibleRecipes] = useState([]);
   const [amountRecipes, setAmountRecipes] = useState(NUMBER_NEW_RECIPES);
-  const [recipesEnded, setRecipesEnded] = useState(false);
 
   useEffect(() => {
     fetch("/data/recipes.json")
@@ -20,18 +28,22 @@ const RecipeList = () => {
       })
       .then((data) => {
         setAllRecipes(data);
-        setVisibleRecipes(data.slice(0, amountRecipes));
       });
   }, []);
+
+  const visibleRecipes = useMemo(() => {
+    const mergedRecipes = mergeRecipesWithPlanner(allRecipes, plannerRecipes);
+    return mergedRecipes.slice(0, amountRecipes);
+  }, [allRecipes, plannerRecipes, amountRecipes]);
+
+  const recipesEnded =
+    allRecipes.length > 0 && amountRecipes >= allRecipes.length;
 
   const onLoadMore = () => {
     const nextAmount = amountRecipes + NUMBER_NEW_RECIPES;
     if (allRecipes.length <= nextAmount) {
-      setVisibleRecipes(allRecipes);
-      setRecipesEnded(true);
       setAmountRecipes(allRecipes.length);
     } else {
-      setVisibleRecipes(allRecipes.slice(0, nextAmount));
       setAmountRecipes(nextAmount);
     }
   };
@@ -40,7 +52,15 @@ const RecipeList = () => {
     <>
       <div className={classes.wrapper}>
         {visibleRecipes.map((recipe) => (
-          <RecipeCard key={recipe.id} recipe={recipe} />
+          <RecipeCard
+            key={recipe.id}
+            recipe={recipe}
+            isInPlanner={isRecipeInPlanner(recipe.id)}
+            onAddRecipe={addRecipe}
+            onRemoveRecipe={removeRecipe}
+            onChangePortions={changePortions}
+            plannerRecipes={plannerRecipes}
+          />
         ))}
       </div>
       <button
@@ -54,6 +74,16 @@ const RecipeList = () => {
       </button>
     </>
   );
+};
+
+const mergeRecipesWithPlanner = (recipeList, plannerList) => {
+  return recipeList.map((recipe) => {
+    const recipeInPlanner = plannerList.find((item) => item.id === recipe.id);
+    if (recipeInPlanner) {
+      return { ...recipe, portions: recipeInPlanner.portions };
+    }
+    return recipe;
+  });
 };
 
 export default RecipeList;
