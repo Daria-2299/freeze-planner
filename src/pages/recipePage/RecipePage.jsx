@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState, useMemo } from "react";
 
-import { useLocalStorage } from "../../hooks/useLocalStorage.hook";
+import { useLocalStorage } from "../../services/useLocalStorage";
 
 import PreparationBlock from "../../components/preparationBlock/preparationBlock";
 import IngredientsBlock from "../../components/ingredientsBlock/IngredientsBlock";

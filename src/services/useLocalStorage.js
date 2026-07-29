@@ -51,27 +51,6 @@ export const useLocalStorage = () => {
     );
   };
 
-  // const changePortions = (recipeId, portionsValue) => {
-  //   setPlannerRecipes((prevRecipes) =>
-  //     prevRecipes.map((recipe) => {
-  //       if (recipe.id === recipeId) {
-  //         return {
-  //           ...recipe,
-  //           portions: portionsValue,
-  //           ingredients: recipe.ingredients.map((ingredient) => ({
-  //             ...ingredient,
-  //             weight: Math.round(
-  //               (ingredient.weight / recipe.portions) * portionsValue,
-  //             ),
-  //           })),
-  //         };
-  //       } else {
-  //         return recipe;
-  //       }
-  //     }),
-  //   );
-  // };
-
   const getRecipeById = (recipeId) => {
     if (isRecipeInPlanner(recipeId))
       return plannerRecipes.find((recipe) => recipe.id === recipeId);

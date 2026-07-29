@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from "react";
 
-import { useLocalStorage } from "../../hooks/useLocalStorage.hook";
+import { useLocalStorage } from "../../services/useLocalStorage";
 
 import RecipeCard from "../recipeCard/recipeCard";
 
