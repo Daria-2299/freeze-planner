@@ -45,7 +45,12 @@
       { "id": 12, "title": "Мука", "weight": 60, "measure": "г" },
       { "id": 13, "title": "Молоко", "weight": 800, "measure": "мл" },
       { "id": 14, "title": "Сыр", "weight": 200, "measure": "г" },
-      { "id": 15, "title": "Мускатный орех", "weight": "", "measure": "" },
+      {
+        "id": 15,
+        "title": "Мускатный орех",
+        "weight": "",
+        "measure": "по вкусу"
+      },
       { "id": 5, "title": "Соль", "weight": "", "measure": "по вкусу" },
       { "id": 6, "title": "Перец молотый", "weight": "", "measure": "по вкусу" }
     ],

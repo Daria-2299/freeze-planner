@@ -1,9 +1,6 @@
-import { useLocalStorage } from "../../services/useLocalStorage";
-
 import classes from "./plannerProductList.module.scss";
 
 import cartIcon from "../../assets/icons/shopping-cart-icon.png";
-import { useEffect } from "react";
 
 const PlannerProductList = ({ ingredients }) => {
   return (
@@ -23,15 +20,8 @@ const PlannerProductList = ({ ingredients }) => {
             {ingredients.map((ingredient, index) => {
               return (
                 <div key={index} className={classes["products-table__row"]}>
-                  <p className={classes["products-table__cell"]}>
-                    {ingredient.title}
-                  </p>
-                  <p className={classes["products-table__cell"]}>
-                    {ingredient.weight}
-                  </p>
-                  <p className={classes["products-table__cell"]}>
-                    {ingredient.measure}
-                  </p>
+                  <p>{ingredient.title}</p>
+                  <p>{ingredient.weight + " " + ingredient.measure}</p>
                 </div>
               );
             })}
