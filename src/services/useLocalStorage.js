@@ -41,9 +41,11 @@ export const useLocalStorage = () => {
               portions: portionsValue,
               ingredients: recipe.ingredients.map((ingredient) => ({
                 ...ingredient,
-                weight: Math.round(
-                  (ingredient.weight / recipe.portions) * portionsValue,
-                ),
+                weight: ingredient.weight
+                  ? Math.round(
+                      (ingredient.weight / recipe.portions) * portionsValue,
+                    )
+                  : ingredient.weight,
               })),
             }
           : recipe,
