@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 import PortionsButtons from "../portionsButtons/PortionsButtons";
 
 import classes from "./plannerRecipeList.module.scss";
@@ -5,6 +7,8 @@ import classes from "./plannerRecipeList.module.scss";
 import pinIcon from "../../assets/icons/pin-icon.png";
 
 const PlannerRecipeList = ({ recipes, changePortions, removeRecipe }) => {
+  const navigate = useNavigate();
+
   const handleRecipeClick = (event, recipeId) => {
     event.preventDefault();
     removeRecipe(recipeId);
@@ -35,7 +39,10 @@ const PlannerRecipeList = ({ recipes, changePortions, removeRecipe }) => {
                 >
                   ✔
                 </button>
-                <div className={classes["recipes-table__cell"]}>
+                <div
+                  className={`${classes["recipes-table__cell"]} ${classes["recipes-table__cell--title"]}`}
+                  onClick={() => navigate(`/recipes/${recipe.id}`)}
+                >
                   <p>{recipe.title}</p>
                 </div>
                 <PortionsButtons
