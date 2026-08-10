@@ -89,6 +89,10 @@
   &__cell {
     display: flex;
     align-items: center;
+
+    &--title {
+      cursor: pointer;
+    }
   }
 
   &__toggle-btn {
