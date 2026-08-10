@@ -4,6 +4,7 @@ import RecipesPage from "./pages/recipesPage/RecipesPage";
 import PlannerPage from "./pages/plannerPage/PlannerPage";
 import FeedbackPage from "./pages/feadbackPage/FeedbackPage";
 import RecipePage from "./pages/recipePage/RecipePage";
+import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/feedback" element={<FeedbackPage />} />
         <Route path="/recipes/:recipeId" element={<RecipePage />} />
       </Routes>
+      <ScrollToTop />
     </>
   );
 }
