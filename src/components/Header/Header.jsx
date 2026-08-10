@@ -44,21 +44,3 @@ const Header = () => {
 };
 
 export default Header;
-
-{
-  /* <Link
-          to="/"
-          className={`${classes["navigation__item"]} ${classes["navigation__item--active"]}`}
-        >
-          <img className={classes["navigation__icon"]} src={recipeIcon} />
-          Рецепты
-        </Link>
-        <Link to="/planner" className={classes["navigation__item"]}>
-          <img className={classes["navigation__icon"]} src={plannerIcon} />
-          Планировщик
-        </Link>
-        <Link to="/feedback" className={classes["navigation__item"]}>
-          <img className={classes["navigation__icon"]} src={messageIcon} />
-          Связь
-        </Link> */
-}
