@@ -1,0 +1,16 @@
+.footer {
+  margin-top: 20px;
+  padding: 20px 50px;
+  background: #fafffa;
+  border-top: 1px solid #d4edda;
+  box-shadow: 0 -2px 12px rgba(40, 167, 69, 0.06);
+  font-family:
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+
+  &__content {
+    margin: 0;
+    font-size: 14px;
+    color: #6b8f7c;
+  }
+}
