@@ -1,10 +1,14 @@
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   background: #fafffa;
   padding: 20px;
   font-family:
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
     "Helvetica Neue", sans-serif;
-  // border-bottom: 1px solid #d4edda;
+  border-bottom: 1px solid #d4edda;
+  box-shadow: 0 2px 12px rgba(40, 167, 69, 0.06);
 }
 
 .navigation {

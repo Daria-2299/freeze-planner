@@ -1,4 +1,4 @@
-import classes from "./Header.module.scss";
+import classes from "./header.module.scss";
 
 import recipeIcon from "../../assets/icons/salad-icon.png";
 import plannerIcon from "../../assets/icons/planner-icon.png";
