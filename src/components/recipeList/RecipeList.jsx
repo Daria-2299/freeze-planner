@@ -3,6 +3,7 @@ import { useState, useEffect, useMemo } from "react";
 import { useLocalStorage } from "../../services/useLocalStorage";
 
 import RecipeCard from "../recipeCard/recipeCard";
+import Loading from "../loading/Loading";
 
 import classes from "./recipeList.module.scss";
 
@@ -19,16 +20,28 @@ const RecipeList = () => {
 
   const [allRecipes, setAllRecipes] = useState([]);
   const [amountRecipes, setAmountRecipes] = useState(NUMBER_NEW_RECIPES);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/data/recipes.json")
-      .then((res) => {
-        if (!res.ok) throw new Error("Ошибка загрузки");
-        return res.json();
-      })
-      .then((data) => {
+    const fetchRecipes = async () => {
+      try {
+        setIsLoading(true);
+
+        const response = await fetch("/data/recipes.json");
+
+        if (!response.ok)
+          throw new Error(`Ошибка загрузки: ${response.status}`);
+
+        const data = await response.json();
+        setIsLoading(false);
         setAllRecipes(data);
-      });
+      } catch (err) {
+        setIsLoading(false);
+        console.error("Ошибка загрузки рецептов:", err);
+      }
+    };
+
+    fetchRecipes();
   }, []);
 
   const visibleRecipes = useMemo(() => {
@@ -47,6 +60,10 @@ const RecipeList = () => {
       setAmountRecipes(nextAmount);
     }
   };
+
+  if (isLoading) {
+    return <Loading />;
+  }
 
   return (
     <>

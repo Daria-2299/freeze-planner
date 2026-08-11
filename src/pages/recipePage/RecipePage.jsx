@@ -7,6 +7,7 @@ import PreparationBlock from "../../components/preparationBlock/preparationBlock
 import IngredientsBlock from "../../components/ingredientsBlock/IngredientsBlock";
 import PortionsButtons from "../../components/portionsButtons/PortionsButtons";
 import RecipeInfo from "../../components/recipeInfo/RecipeInfo";
+import Loading from "../../components/loading/Loading";
 
 import classes from "./recipePage.module.scss";
 
@@ -20,20 +21,30 @@ const RecipePage = () => {
     removeRecipe,
   } = useLocalStorage();
 
-  const [loading, setLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
   const [recipeList, setRecipeList] = useState([]);
   const [isInPlanner, setIsInPlanner] = useState(isRecipeInPlanner(+recipeId));
 
   useEffect(() => {
-    fetch("/data/recipes.json")
-      .then((res) => {
-        if (!res.ok) throw new Error("Ошибка загрузки");
-        return res.json();
-      })
-      .then((data) => {
+    const fetchRecipes = async () => {
+      try {
+        setIsLoading(true);
+
+        const response = await fetch("/data/recipes.json");
+
+        if (!response.ok)
+          throw new Error(`Ошибка загрузки: ${response.status}`);
+
+        const data = await response.json();
+        setIsLoading(false);
         setRecipeList(data);
-        setLoading(false);
-      });
+      } catch (err) {
+        setIsLoading(false);
+        console.error("Ошибка загрузки рецептов:", err);
+      }
+    };
+
+    fetchRecipes();
   }, []);
 
   const recipe = useMemo(() => {
@@ -49,8 +60,8 @@ const RecipePage = () => {
     isInPlanner ? setIsInPlanner(false) : setIsInPlanner(true);
   };
 
-  if (loading) {
-    return <div>Загрузка...</div>;
+  if (isLoading) {
+    return <Loading />;
   }
 
   return (
