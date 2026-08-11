@@ -1,16 +1,14 @@
 import { Routes, Route } from "react-router-dom";
-import Header from "./components/Header/Header";
+import Layout from "./components/layout/Layout";
 import RecipesPage from "./pages/recipesPage/RecipesPage";
 import PlannerPage from "./pages/plannerPage/PlannerPage";
 import FeedbackPage from "./pages/feadbackPage/FeedbackPage";
 import RecipePage from "./pages/recipePage/RecipePage";
 import ScrollToTop from "./components/scrollToTop/ScrollToTop";
-import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <>
-      <Header />
+    <Layout>
       <Routes>
         <Route path="/" element={<RecipesPage />} />
         <Route path="/planner" element={<PlannerPage />} />
@@ -18,8 +16,7 @@ function App() {
         <Route path="/recipes/:recipeId" element={<RecipePage />} />
       </Routes>
       <ScrollToTop />
-      <Footer />
-    </>
+    </Layout>
   );
 }
 
