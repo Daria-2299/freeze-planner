@@ -4,7 +4,7 @@ import { useLocalStorage } from "../../services/useLocalStorage";
 import PlannerProductList from "../../components/plannerProductList/PlannerProductList";
 import PlannerRecipeList from "../../components/plannerRecipeList/PlannerRecipeList";
 
-import "./plannerPage.scss";
+import classes from "./plannerPage.module.scss";
 
 const PlannerPage = () => {
   const { plannerRecipes, changePortions, removeRecipe } = useLocalStorage();
@@ -29,13 +29,16 @@ const PlannerPage = () => {
   }, [plannerRecipes]);
 
   return (
-    <div className="container">
-      <PlannerRecipeList
-        recipes={plannerRecipes}
-        changePortions={changePortions}
-        removeRecipe={removeRecipe}
-      />
-      <PlannerProductList ingredients={ingredients} />
+    <div className={classes.wrapper}>
+      <h2 className={classes["title"]}>Планировщик</h2>
+      <div className={classes["container"]}>
+        <PlannerRecipeList
+          recipes={plannerRecipes}
+          changePortions={changePortions}
+          removeRecipe={removeRecipe}
+        />
+        <PlannerProductList ingredients={ingredients} />
+      </div>
     </div>
   );
 };
