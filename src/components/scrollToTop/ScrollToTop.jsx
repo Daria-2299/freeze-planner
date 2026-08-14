@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 import classes from "./scrollToTop.module.scss";
 
 const ScrollToTop = ({ threshold = 400 }) => {
+  const { pathname } = useLocation();
   const [isVisible, setIsVisible] = useState(false);
 
   const scrollToTop = () => {
@@ -11,6 +13,10 @@ const ScrollToTop = ({ threshold = 400 }) => {
       behavior: "smooth",
     });
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   useEffect(() => {
     const handleScroll = () => {
