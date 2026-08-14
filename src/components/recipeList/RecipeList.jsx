@@ -4,6 +4,7 @@ import { useLocalStorage } from "../../services/useLocalStorage";
 
 import RecipeCard from "../recipeCard/recipeCard";
 import Loading from "../loading/Loading";
+import ErrorMessage from "../errorMessage/ErrorMessage";
 
 import classes from "./recipeList.module.scss";
 
@@ -21,6 +22,7 @@ const RecipeList = () => {
   const [allRecipes, setAllRecipes] = useState([]);
   const [amountRecipes, setAmountRecipes] = useState(NUMBER_NEW_RECIPES);
   const [isLoading, setIsLoading] = useState(true);
+  const [isError, setIsError] = useState(false);
 
   useEffect(() => {
     const fetchRecipes = async () => {
@@ -36,6 +38,7 @@ const RecipeList = () => {
         setIsLoading(false);
         setAllRecipes(data);
       } catch (err) {
+        setIsError(true);
         setIsLoading(false);
         console.error("Ошибка загрузки рецептов:", err);
       }
@@ -63,6 +66,10 @@ const RecipeList = () => {
 
   if (isLoading) {
     return <Loading />;
+  }
+
+  if (isError) {
+    return <ErrorMessage />;
   }
 
   return (

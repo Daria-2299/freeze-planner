@@ -8,6 +8,7 @@ import IngredientsBlock from "../../components/ingredientsBlock/IngredientsBlock
 import PortionsButtons from "../../components/portionsButtons/PortionsButtons";
 import RecipeInfo from "../../components/recipeInfo/RecipeInfo";
 import Loading from "../../components/loading/Loading";
+import ErrorMessage from "../../components/errorMessage/ErrorMessage";
 
 import classes from "./recipePage.module.scss";
 
@@ -22,6 +23,7 @@ const RecipePage = () => {
   } = useLocalStorage();
 
   const [isLoading, setIsLoading] = useState(true);
+  const [isError, setIsError] = useState(false);
   const [recipeList, setRecipeList] = useState([]);
   const [isInPlanner, setIsInPlanner] = useState(isRecipeInPlanner(+recipeId));
 
@@ -39,6 +41,7 @@ const RecipePage = () => {
         setIsLoading(false);
         setRecipeList(data);
       } catch (err) {
+        setIsError(true);
         setIsLoading(false);
         console.error("Ошибка загрузки рецептов:", err);
       }
@@ -62,6 +65,10 @@ const RecipePage = () => {
 
   if (isLoading) {
     return <Loading />;
+  }
+
+  if (isError) {
+    return <ErrorMessage />;
   }
 
   return (
