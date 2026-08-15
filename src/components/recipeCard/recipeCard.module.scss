@@ -1,6 +1,7 @@
 .recipe-card {
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
   width: 100%;
   height: 350px;
   background: #fafffa;
@@ -79,4 +80,55 @@
 .buttons {
   display: flex;
   gap: 20px;
+}
+
+@media (max-width: 1024px) {
+  .recipe-card {
+    height: 250px;
+
+    &__title {
+      font-size: 22px;
+    }
+
+    &__ingredients {
+      max-height: 50px;
+      font-size: 12px;
+      &--bold {
+        font-size: 14px;
+      }
+    }
+
+    &__button {
+      min-width: 40%;
+      height: 40px;
+      font-size: 16px;
+    }
+  }
+
+  .image-wrapper {
+    max-width: 100%;
+    height: 100px;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .recipe-card {
+    &__title {
+      font-size: 18px;
+    }
+
+    &__ingredients {
+      max-height: 35px;
+    }
+
+    &__button {
+      height: 35px;
+      font-size: 14px;
+    }
+  }
 }

@@ -32,3 +32,35 @@
     color: #2d6a4f;
   }
 }
+
+@media (max-width: 1024px) {
+  .ingredients {
+    padding: 15px;
+
+    &__title {
+      padding-bottom: 10px;
+      font-size: 20px;
+    }
+
+    &__item {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .ingredients {
+    gap: 5px;
+
+    &__title {
+      padding-bottom: 5px;
+      font-size: 16px;
+    }
+
+    &__item {
+      gap: 5px;
+      padding: 5px;
+      font-size: 12px;
+    }
+  }
+}

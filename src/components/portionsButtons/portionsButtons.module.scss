@@ -37,3 +37,47 @@
     color: #1b4332;
   }
 }
+
+@media (max-width: 1200px) {
+  .portions-control {
+    flex-grow: 1;
+
+    &__value {
+      background-color: inherit;
+      font-size: 26px;
+      font-weight: 500;
+      color: #1b4332;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .portions-control {
+    width: 150px;
+
+    &__btn {
+      width: 30px;
+      height: 30px;
+      font-size: 24px;
+    }
+
+    &__value {
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .portions-control {
+    width: 100px;
+    &__btn {
+      width: 25px;
+      height: 25px;
+      font-size: 20px;
+    }
+
+    &__value {
+      font-size: 18px;
+    }
+  }
+}

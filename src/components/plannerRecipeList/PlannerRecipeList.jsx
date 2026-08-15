@@ -49,6 +49,7 @@ const PlannerRecipeList = ({ recipes, changePortions, removeRecipe }) => {
                   portions={recipe.portions}
                   onChangePortions={changePortions}
                   recipeId={recipe.id}
+                  className={classes["portions-button"]}
                 />
               </div>
             ))}

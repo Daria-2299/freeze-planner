@@ -24,3 +24,35 @@
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
     "Helvetica Neue", sans-serif;
 }
+
+@media (max-width: 1024px) {
+  .wrapper {
+    gap: 20px;
+    padding: 10px 50px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .container {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    gap: 10px;
+    padding: 10px 30px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

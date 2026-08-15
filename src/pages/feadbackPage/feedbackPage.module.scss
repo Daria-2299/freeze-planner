@@ -25,3 +25,36 @@
     font-weight: 500;
   }
 }
+
+@media (max-width: 1024px) {
+  .feedback-block {
+    gap: 15px;
+    width: 80%;
+    margin: 15px auto;
+    padding: 15px 20px;
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__subtitle {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .feedback-block {
+    gap: 10px;
+    width: 90%;
+    margin: 10px auto;
+
+    &__title {
+      font-size: 28px;
+    }
+
+    &__subtitle {
+      font-size: 12px;
+    }
+  }
+}

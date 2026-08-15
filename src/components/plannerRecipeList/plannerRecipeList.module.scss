@@ -118,3 +118,93 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .recipes-table {
+    &__cell {
+      flex-grow: 1;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .recipes-block {
+    padding: 20px;
+
+    &__title {
+      gap: 10px;
+      margin-bottom: 15px;
+      font-size: 24px;
+    }
+
+    &__empty-table {
+      height: 90px;
+      font-size: 14px;
+    }
+  }
+
+  .headlines {
+    gap: 10px;
+    padding: 10px 15px;
+
+    &__item {
+      font-size: 14px;
+    }
+  }
+
+  .recipes-table {
+    &__row {
+      gap: 5px;
+      padding: 5px 10px;
+      font-size: 14px;
+    }
+
+    &__toggle-btn {
+      width: 20px;
+      height: 20px;
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .recipes-block {
+    padding: 15px;
+
+    &__title {
+      gap: 5px;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    &__icon {
+      width: 24px;
+      height: 24px;
+    }
+
+    &__empty-table {
+      height: 70px;
+      font-size: 12px;
+    }
+  }
+
+  .headlines {
+    gap: 5px;
+    padding: 5px 10px;
+
+    &__item {
+      font-size: 12px;
+    }
+  }
+
+  .recipes-table {
+    &__row {
+      font-size: 12px;
+    }
+
+    &__toggle-btn {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}

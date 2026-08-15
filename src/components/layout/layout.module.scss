@@ -4,7 +4,23 @@
   min-height: 100vh;
 
   &__context {
-    flex: 1 0 auto; 
+    flex: 1 0 auto;
     padding: 20px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .layout {
+    &__context {
+      padding: 15px 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .layout {
+    &__context {
+      padding: 10px 0;
+    }
   }
 }

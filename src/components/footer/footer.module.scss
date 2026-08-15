@@ -1,6 +1,5 @@
 .footer {
   width: 100%;
-  //   margin-top: 20px;
   padding: 20px 50px;
   background: #fafffa;
   border-top: 1px solid #d4edda;
@@ -13,5 +12,25 @@
     margin: 0;
     font-size: 14px;
     color: #6b8f7c;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 15px 40px;
+
+    &__content {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px 30px;
+
+    &__content {
+      font-size: 10px;
+    }
   }
 }

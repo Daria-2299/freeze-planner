@@ -15,7 +15,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   padding: 6px;
   border: 1px solid #d4edda;
@@ -29,7 +29,7 @@
     justify-content: center;
     gap: 10px;
     height: 50px;
-    border: none;
+    border: 1px solid #d4edda;
     border-radius: 50px;
     background: transparent;
     font-weight: 500;
@@ -59,5 +59,36 @@
     flex-shrink: 0;
     object-fit: contain;
     background-color: inherit;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navigation {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 15px;
+  }
+  .navigation {
+    width: 98%;
+
+    &__item {
+      height: 45px;
+      font-size: 22px;
+    }
+
+    &__icon {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: none;
   }
 }
