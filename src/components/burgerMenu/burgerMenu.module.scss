@@ -1,0 +1,116 @@
+.burger-menu {
+  display: none;
+  position: relative;
+}
+
+.burger-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 100;
+
+  &:hover {
+    background: #e9f5eb;
+  }
+
+  &__line {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #2d6a4f;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+  &--active {
+    .burger-button__line {
+      &:nth-child(1) {
+        transform: translateY(13px) rotate(45deg);
+      }
+      &:nth-child(2) {
+        opacity: 0;
+        transform: scaleX(0);
+      }
+      &:nth-child(3) {
+        transform: translateY(-13px) rotate(-45deg);
+      }
+    }
+  }
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100vh;
+  padding: 20px 16px;
+  background: #fafffa;
+  border-left: 1px solid #d4edda;
+  box-shadow: -4px 0 24px rgba(40, 167, 69, 0.08);
+  transition: right 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow-y: auto;
+  z-index: 10;
+
+  &--open {
+    right: 0;
+  }
+}
+
+.mobile-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 60px;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 16px;
+
+    border: 1px solid #d4edda;
+    border-radius: 50px;
+    background: transparent;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    color: #2d6a4f;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &--active {
+      background: #2d6a4f;
+      color: #ffffff;
+      box-shadow: 0 4px 12px rgba(45, 106, 79, 0.25);
+    }
+
+    &:hover {
+      background: #e9f5eb;
+      color: #1b4332;
+    }
+  }
+
+  &__icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: inherit;
+  }
+}
+
+@media (max-width: 768px) {
+  .burger-menu {
+    display: block;
+  }
+}
