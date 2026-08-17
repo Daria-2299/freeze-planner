@@ -1,5 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 
+import BurgerMenu from "../burgerMenu/BurgerMenu";
+
 import classes from "./Header.module.scss";
 
 import recipeIcon from "../../assets/icons/salad-icon.png";
@@ -21,6 +23,7 @@ const Header = () => {
 
   return (
     <div className={classes["header"]}>
+      <BurgerMenu links={links} />
       <nav className={classes["navigation"]}>
         {links.map((link) => {
           return (

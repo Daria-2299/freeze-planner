@@ -4,6 +4,7 @@
   z-index: 100;
   background: #fafffa;
   padding: 20px;
+  min-height: 60px;
   font-family:
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
     "Helvetica Neue", sans-serif;
@@ -88,7 +89,7 @@
 }
 
 @media (max-width: 768px) {
-  .header {
+  .navigation {
     display: none;
   }
 }
