@@ -8,7 +8,7 @@ import ErrorMessage from "../errorMessage/ErrorMessage";
 
 import classes from "./recipeList.module.scss";
 
-const NUMBER_NEW_RECIPES = 20;
+const NUMBER_NEW_RECIPES = 16;
 
 const RecipeList = () => {
   const {
