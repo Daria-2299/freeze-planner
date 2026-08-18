@@ -29,7 +29,7 @@ const RecipeList = () => {
       try {
         setIsLoading(true);
 
-        const response = await fetch("/data/recipes.json");
+        const response = await fetch("./data/recipes.json");
 
         if (!response.ok)
           throw new Error(`Ошибка загрузки: ${response.status}`);

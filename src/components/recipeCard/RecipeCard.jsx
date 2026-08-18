@@ -32,7 +32,7 @@ const RecipeCard = ({
       }}
     >
       <div className={classes["image-wrapper"]}>
-        <img className={classes["image"]} src={recipe.imageUrl} />
+        <img className={classes["image"]} src={`./images/${recipe.imageUrl}`} />
       </div>
       <div className={classes["recipe-card__content"]}>
         <h3 className={classes["recipe-card__title"]}>{recipe.title}</h3>
