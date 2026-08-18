@@ -1,16 +1,58 @@
-# React + Vite
+# ❄️ Freeze Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Описание проекта
 
-Currently, two official plugins are available:
+**Freeze Planner** — это веб-приложение для планирования меню и составления списка продуктов. Пользователи могут выбирать блюда из каталога, добавлять их в планнер, изменять количество порций, на основе чего автоматически формируется список покупок. Готовый список продуктов можно сохранить в файл или скопировать в буфер обмена.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Основные функции
 
-## React Compiler
+- **Выбор блюд**: Просмотр каталога доступных блюд с подробным описанием ингредиентов.
+- **Планирование меню**: Добавление и удаление блюд в планнере, изменение количества порций.
+- **Генерация списка продуктов**: Автоматическое формирование списка покупок на основе выбранных блюд и количества порций.
+- **Экспорт данных**: Сохранение списка продуктов в файл (txt) или копирование в буфер обмена.
+- **Обратная связь**: Страница с формой для отправки сообщений.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Используемые технологии
 
-## Expanding the ESLint configuration
+- **Vite**
+- **React**
+- **JavaScript**
+- **SCSS** 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Демо
+
+🔗 **[Посмотреть демо](https://daria-2299.github.io/freeze-planner/)**
+
+## 📂 Репозиторий
+
+🔗 **[Исходный код на GitHub](https://github.com/daria-2299/freeze-planner)**
+
+
+## 🚀 Запуск приложения
+
+
+### Установка и запуск
+
+1. **Клонировать репозиторий:**
+
+   ```bash
+   git clone https://github.com/daria-2299/freeze-planner.git
+   ```
+
+2.  **Установить зависимости:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Запустить приложение в режиме разработки:**
+
+   ```bash
+   npm run dev
+   ```
+
+## 📸 Скриншоты
+<img width="1874" height="978" alt="image" src="https://github.com/user-attachments/assets/d3769c2a-87ef-47ff-b3f6-363165342cac" />
+<img width="1437" height="858" alt="image" src="https://github.com/user-attachments/assets/ad3fd2b5-cb56-4495-9fe4-e017de41fa39" />
+<img width="1756" height="841" alt="image" src="https://github.com/user-attachments/assets/537e139e-a43e-4582-bb1c-6b59fcea4307" />
+<img width="1882" height="967" alt="image" src="https://github.com/user-attachments/assets/a7212efa-1676-4f65-af72-157dc916950d" />
