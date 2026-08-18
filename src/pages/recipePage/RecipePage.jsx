@@ -31,8 +31,7 @@ const RecipePage = () => {
     const fetchRecipes = async () => {
       try {
         setIsLoading(true);
-
-        const response = await fetch("/data/recipes.json");
+        const response = await fetch("../data/recipes.json");
 
         if (!response.ok)
           throw new Error(`Ошибка загрузки: ${response.status}`);
@@ -107,7 +106,10 @@ const RecipePage = () => {
 
       <div className={classes["recipe-info__main"]}>
         <div className={classes["image-wrapper"]}>
-          <img src={recipe.imageUrl} className={classes["image"]} />
+          <img
+            src={`../images/${recipe.imageUrl}`}
+            className={classes["image"]}
+          />
         </div>
         <IngredientsBlock recipe={recipe} />
       </div>
