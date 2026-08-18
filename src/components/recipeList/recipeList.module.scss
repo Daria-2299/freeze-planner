@@ -1,0 +1,79 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  align-items: stretch;
+}
+
+.button {
+  width: 250px;
+  height: 45px;
+  margin: 30px auto;
+  padding: 0 10px;
+  border: none;
+  border-radius: 50px;
+  background: #2d6a4f;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+
+  &:hover {
+    background: #e9f5eb;
+    color: #2d6a4f;
+    box-shadow: 0 4px 12px rgba(45, 106, 79, 0.25);
+  }
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    gap: 15px;
+  }
+
+  .button {
+    width: 200px;
+    height: 40px;
+    margin: 20px auto;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .button {
+    width: 150px;
+    height: 35px;
+    margin: 10px auto;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .button {
+    width: 150px;
+    height: 35px;
+    margin: 10px auto;
+    font-size: 14px;
+  }
+}

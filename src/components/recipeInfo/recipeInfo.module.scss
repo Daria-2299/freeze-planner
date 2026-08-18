@@ -1,0 +1,59 @@
+.info-block {
+  display: flex;
+  gap: 50px;
+  color: #2d6a4f;
+  font-size: 20px;
+
+  &__icon {
+    display: block;
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    background: inherit;
+  }
+
+  &__cooking-time {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__portions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 40px;
+    border-left: 2px solid #d4edda;
+  }
+}
+
+@media (max-width: 1024px) {
+  .info-block {
+    gap: 40px;
+    font-size: 16px;
+
+    &__portions {
+      padding-left: 30px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .info-block {
+    gap: 30px;
+    font-size: 14px;
+
+    &__icon {
+      width: 24px;
+      height: 24px;
+    }
+
+    &__cooking-time {
+      gap: 5px;
+    }
+
+    &__portions {
+      gap: 5px;
+    }
+  }
+}

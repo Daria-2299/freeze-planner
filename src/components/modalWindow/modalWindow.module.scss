@@ -1,0 +1,119 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(45, 106, 79, 0.4);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  &--open {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fafffa;
+  border-radius: 30px;
+  padding: 40px;
+  max-width: 600px;
+  width: 50%;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(45, 106, 79, 0.15);
+  border: 1px solid #d4edda;
+  transform: scale(0.9) translateY(20px);
+  transition: all 0.3s ease;
+  cursor: default;
+  font-family:
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+
+  &__close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    color: #2d6a4f;
+    font-size: 24px;
+    line-height: 1;
+    padding: 0;
+
+    &:hover {
+      background: #e9f5eb;
+      transform: rotate(90deg);
+      color: #1b4332;
+    }
+
+    &:active {
+      transform: rotate(90deg) scale(0.9);
+    }
+  }
+
+  &__content {
+    padding: 15px;
+    color: #2d6a4f;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 1024px) {
+  .modal {
+    padding: 30px;
+    max-width: 500px;
+    width: 60%;
+
+    &__close {
+      width: 35px;
+      height: 35px;
+      top: 10px;
+      right: 10px;
+      font-size: 20px;
+    }
+
+    &__content {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .modal {
+    padding: 20px;
+    max-width: 400px;
+    width: 70%;
+
+    &__close {
+      width: 30px;
+      height: 30px;
+      font-size: 16px;
+    }
+
+    &__content {
+      font-size: 12px;
+    }
+  }
+}

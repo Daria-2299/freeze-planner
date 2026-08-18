@@ -1,0 +1,60 @@
+.feedback-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px 30px;
+  border: 1px solid #d4edda;
+  border-radius: 50px;
+  box-shadow: 0 2px 12px rgba(40, 167, 69, 0.06);
+  font-family:
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+
+  &__title {
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 0.4px;
+    color: #1b4332;
+  }
+
+  &__subtitle {
+    color: #2d6a4f;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 1024px) {
+  .feedback-block {
+    gap: 15px;
+    width: 80%;
+    margin: 15px auto;
+    padding: 15px 20px;
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__subtitle {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .feedback-block {
+    gap: 10px;
+    width: 90%;
+    margin: 10px auto;
+
+    &__title {
+      font-size: 28px;
+    }
+
+    &__subtitle {
+      font-size: 12px;
+    }
+  }
+}
