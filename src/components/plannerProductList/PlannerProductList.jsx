@@ -5,24 +5,23 @@ import copyIcon from "../../assets/icons/copy-icon.png";
 import downloadIcon from "../../assets/icons/download-icon.png";
 
 const PlannerProductList = ({ ingredients }) => {
-  const handleCopyList = () => {
-    const listText = ingredients
+  const pritierProductList = (ingredients) => {
+    return [...ingredients]
+      .sort((a, b) => b.weight - a.weight)
       .map(
         (ingredient, index) =>
           `${index + 1}. ${ingredient.title} ${ingredient.weight} ${ingredient.measure}`,
       )
       .join("\n");
+  };
 
+  const handleCopyList = () => {
+    const listText = pritierProductList(ingredients);
     navigator.clipboard.writeText(listText);
   };
 
   const handleSaveAsFile = () => {
-    const listText = ingredients
-      .map(
-        (ingredient, index) =>
-          `${index + 1}. ${ingredient.title} ${ingredient.weight} ${ingredient.measure}`,
-      )
-      .join("\n");
+    const listText = pritierProductList(ingredients);
     const blob = new Blob([listText], { type: "text/plain;charset=utf-8" });
     const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
@@ -65,14 +64,16 @@ const PlannerProductList = ({ ingredients }) => {
           </div>
 
           <div className={classes["products-table"]}>
-            {ingredients.map((ingredient, index) => {
-              return (
-                <div key={index} className={classes["products-table__row"]}>
-                  <p>{ingredient.title}</p>
-                  <p>{ingredient.weight + " " + ingredient.measure}</p>
-                </div>
-              );
-            })}
+            {[...ingredients]
+              .sort((a, b) => b.weight - a.weight)
+              .map((ingredient, index) => {
+                return (
+                  <div key={index} className={classes["products-table__row"]}>
+                    <p>{ingredient.title}</p>
+                    <p>{ingredient.weight + " " + ingredient.measure}</p>
+                  </div>
+                );
+              })}
           </div>
         </div>
       ) : (
