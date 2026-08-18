@@ -21,7 +21,7 @@ const RecipeList = () => {
   const [amountRecipes, setAmountRecipes] = useState(NUMBER_NEW_RECIPES);
 
   useEffect(() => {
-    fetch("/data/recipes.json")
+    fetch("./data/recipes.json")
       .then((res) => {
         if (!res.ok) throw new Error("Ошибка загрузки");
         return res.json();
